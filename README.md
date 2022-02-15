@@ -1,4 +1,4 @@
- View my Portfolio here, https://jovyllebermudez.github.io/
+ View my Portfolio here, https://jovyllebermudez.github.io/ or https://jovyllebermudez.com/
 
 - 👋 Hi, I’m @jovyllebermudez
 - 👀 I’m interested in breads
