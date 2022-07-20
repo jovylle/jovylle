@@ -7,7 +7,6 @@ View my Portfolio here, https://jovyllebermudez.github.io/ or https://jovylleber
 - 🌱 I’m currently learning how to enjoy more eating bread
 - 💞️ I’m looking to collaborate on eating breads
 - 📫 How to reach me please have bread
-- 
 
 <!---
 jovyllebermudez/jovyllebermudez is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
