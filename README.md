@@ -12,8 +12,7 @@ You can click the Preview link to take a look at your changes.
 <!---
 test changes 3
 --->
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=jovyllebermudez&theme=vue)](https://git.io/streak-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jovyllebermudez)](https://github.com/jovyllebermudez/github-readme-stats)
 
-![Me GitHub stats](https://github-readme-stats.vercel.app/api?username=jovyllebermudez&show_icons=true&theme=radical)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jovyllebermudez&repo=github-readme-stats)](https://github.com/jovyllebermudez/github-readme-stats)
