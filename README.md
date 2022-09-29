@@ -14,7 +14,4 @@ test changes 3
 --->
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=jovyllebermudez&theme=vue)](https://git.io/streak-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jovyllebermudez)](https://github.com/jovyllebermudez/jovyllebermudez)
-<center>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jovyllebermudez" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=jovyllebermudez&repo=convoychat" />
-</center>
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=jovyllebermudez&show_icons=true)
