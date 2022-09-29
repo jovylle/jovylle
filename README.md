@@ -1,13 +1,4 @@
-Wb Developer Since 2017
-
 View my Portfolio here, https://jovyllebermudez.github.io/ or https://jovyllebermudez.com/
-
-- 👋 Hi, I’m @jovyllebermudez
-- 👀 I’m interested in breads
-- 🌱 I’m currently learning how to enjoy more eating bread
-- 💞️ I’m looking to collaborate on eating breads
-- 📫 How to reach me please have bread
-
 
 ## https://github.com/jovyllebermudez-old (this here is my old account)
 
@@ -23,3 +14,5 @@ test changes 3
 --->
 
 ![Me GitHub stats](https://github-readme-stats.vercel.app/api?username=jovyllebermudez&show_icons=true&theme=radical)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
