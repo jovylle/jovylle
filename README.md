@@ -1,3 +1,5 @@
+[![trophy](https://github-profile-trophy.vercel.app/?username=jovyllebermudez&theme=onedark)](https://github.com/jovyllebermudez/jovyllebermudez)
+
 View my Portfolio here, https://jovyllebermudez.github.io/ or https://jovyllebermudez.com/
 
 ## https://github.com/jovyllebermudez-old (this here is my old account)
