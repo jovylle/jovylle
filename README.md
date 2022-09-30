@@ -11,7 +11,7 @@
 
 <h1 align="center">You don't need to be a champion to have trophies</h1>
 <p align="center">
-<img align="center" src="https://github-profile-trophy.vercel.app/?username=ryo-ma&column=7&margin-w=15&margin-h=15" />
+<img align="center" src="https://github-profile-trophy.vercel.app/?username=jovyllebermudez&column=7&margin-w=15&margin-h=15" />
 </p>
 <br />
 <br />
