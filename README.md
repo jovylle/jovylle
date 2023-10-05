@@ -29,15 +29,10 @@ https://github.com/jovyllebermudez-old
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 
 <h2>Contributions</h2>
-<p>
-  <a href="https://github.com/jovyllebermudez">
-    <span>
-      <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jovyllebermudez&theme=zenburn" width="90%" />
-    </span>
-  </a>
-</p>
-<p>
-  <img align="center" src="https://github-readme-stats-jov.vercel.app/api?username=jovyllebermudez&rank_icon=percentile&theme=transparent" width="500"/>
-</p>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=jovyllebermudez&theme=nightfox&hide_current_streak=true)](https://git.io/streak-stats)
+[![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jovyllebermudez&theme=onedark)]([jovylle.com](https://jovylle.com))
+
+<!--[![asd](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=jovyllebermudez&theme=onedark)](https://jovylle.com)-->
+
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=jovyllebermudez&theme=onedark&hide_current_streak=true&hide_border=true)](https://jovylle.com)
