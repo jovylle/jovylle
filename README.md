@@ -37,5 +37,7 @@ https://github.com/jovyllebermudez-old
   </a>
 </p>
 <p>
-  <img align="center" src="https://github-readme-stats-jov.vercel.app/api?username=jovyllebermudez&rank_icon=percentile" width="500"/>
+  <img align="center" src="https://github-readme-stats-jov.vercel.app/api?username=jovyllebermudez&rank_icon=percentile&theme=transparent" width="500"/>
 </p>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=jovyllebermudez&theme=nightfox&hide_current_streak=true)](https://git.io/streak-stats)
