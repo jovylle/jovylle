@@ -30,7 +30,7 @@ https://github.com/jovyllebermudez-old
 
 <h2>Contributions</h2>
 
-[![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jovyllebermudez&theme=onedark&wahahah=hahehe)]([jovylle.com](https://jovylle.com))
+[![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jovyllebermudez&theme=onedark)]([jovylle.com](https://jovylle.com))
 
 <!--[![asd](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=jovyllebermudez&theme=onedark)](https://jovylle.com)-->
 
@@ -39,7 +39,7 @@ https://github.com/jovyllebermudez-old
 
 [![Top Languages](https://github-readme-stats-jov.vercel.app/api/top-langs/?username=jovyllebermudez&hide=css&theme=onedark&hide_border=true&layout=compact)](https://jovylle.com)
 
-[![An image of @jovyllebermudez's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/jovyllebermudez)](https://holopin.io/@jovyllebermudez)
+[![An image of @jovyllebermudez's Holopin badges](https://holopin.me/jovyllebermudez?wahahah=hahehe)](https://jovylle.com)
 
 
 
