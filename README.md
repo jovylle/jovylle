@@ -30,7 +30,7 @@ https://github.com/jovyllebermudez-old
 
 <h2>Contributions</h2>
 
-[![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jovyllebermudez&theme=onedark)]([jovylle.com](https://jovylle.com))
+[![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jovyllebermudez&theme=onedark&wahahah=hahehe)]([jovylle.com](https://jovylle.com))
 
 <!--[![asd](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=jovyllebermudez&theme=onedark)](https://jovylle.com)-->
 
