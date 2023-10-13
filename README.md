@@ -37,7 +37,7 @@ https://github.com/jovyllebermudez-old
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=jovyllebermudez&theme=onedark&hide_current_streak=true&hide_border=true)](https://jovylle.com)
 
-[![Top Languages](https://github-readme-stats-jov.vercel.app/api/top-langs/?username=jovyllebermudez&hide=css&theme=onedark&hide_border=true&layout=compact&langs_count=8)](https://jovylle.com)
+[![Top Languages](https://github-readme-stats-jov.vercel.app/api/top-langs/?username=jovyllebermudez&hide=css,scss,html&theme=onedark&hide_border=true&layout=compact&langs_count=8)](https://jovylle.com)
 
 [![An image of @jovyllebermudez's Holopin badges](https://holopin.me/jovyllebermudez?wahahah=hahehe)](https://jovylle.com)
 
