@@ -37,6 +37,6 @@
 [![An image of @jovyllebermudez's Holopin badges](https://holopin.me/jovyllebermudez?wahahah=hahehe)](https://jovylle.com)
 
 
-<h2 >Old Github account</h2>
+<h3>Old Github account</h3>
 
 https://github.com/jovyllebermudez-old
