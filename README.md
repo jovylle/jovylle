@@ -1,8 +1,3 @@
-<h3 >Old Github account</h3>
-
-https://github.com/jovyllebermudez-old
-
-
 <h2 >Tech Stack</h2>
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -42,4 +37,6 @@ https://github.com/jovyllebermudez-old
 [![An image of @jovyllebermudez's Holopin badges](https://holopin.me/jovyllebermudez?wahahah=hahehe)](https://jovylle.com)
 
 
+<h2 >Old Github account</h2>
 
+https://github.com/jovyllebermudez-old
