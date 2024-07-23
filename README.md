@@ -25,16 +25,16 @@
 
 <h2>Contributions</h2>
 
-[![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jovyllebermudez&theme=onedark)]([jovylle.com](https://jovylle.com))
+[![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jovylletheme=onedark)]([jovylle.com](https://jovylle.com))
 
 <!--[![asd](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=jovyllebermudez&theme=onedark)](https://jovylle.com)-->
 
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=jovyllebermudez&theme=onedark&hide_current_streak=true&hide_border=true)](https://jovylle.com)
+[![GitHub Streak](https://streak-stats.demolab.com?user=jovylle&theme=onedark&hide_current_streak=true&hide_border=true)](https://jovylle.com)
 
 [![Top Languages](https://github-readme-stats-jov.vercel.app/api/top-langs/?username=jovyllebermudez&hide=css,scss,html&theme=onedark&hide_border=true&layout=compact&langs_count=8)](https://jovylle.com)
 
-[![An image of @jovyllebermudez's Holopin badges](https://holopin.me/jovyllebermudez?wahahah=hahehe)](https://jovylle.com)
+[![An image of @jovylle's Holopin badges](https://holopin.me/jovyllebermudez?wahahah=hahehe)](https://jovylle.com)
 
 
 <h3>Old Github account</h3>
