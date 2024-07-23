@@ -32,7 +32,7 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=jovylle&theme=onedark&hide_current_streak=true&hide_border=true)](https://jovylle.com)
 
-[![Top Languages](https://github-readme-stats-jov.vercel.app/api/top-langs/?username=jovyllebermudez&hide=css,scss,html&theme=onedark&hide_border=true&layout=compact&langs_count=8)](https://jovylle.com)
+[![Top Languages](https://github-readme-stats-jov.vercel.app/api/top-langs/?username=jovylle&hide=css,scss,html&theme=onedark&hide_border=true&layout=compact&langs_count=8)](https://jovylle.com)
 
 [![An image of @jovylle's Holopin badges](https://holopin.me/jovyllebermudez?wahahah=hahehe)](https://jovylle.com)
 
