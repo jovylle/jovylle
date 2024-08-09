@@ -23,14 +23,13 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=B7FFD8&background=00000071&width=435&lines=Ctrl%2BZ+is+my+best+friend.)](https://git.io/typing-svg)
+
 <h2>Contributions</h2>
 
 [![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jovylletheme=onedark)]([jovylle.com](https://jovylle.com))
 
-<!--[![asd](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=jovyllebermudez&theme=onedark)](https://jovylle.com)-->
-
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=jovylle&theme=onedark&hide_current_streak=true&hide_border=true)](https://jovylle.com)
+[![GitHub Streak](https://streak-stats.demolab.com?user=jovylle&theme=github-dark-dimmed&border_radius=6&date_format=M%20j%5B%2C%20Y%5D&type=png&background=45%2C000000%2C4D0000A9&hide_current_streak=true&hide_longest_streak=true)](https://git.io/streak-stats)
 
 [![Top Languages](https://github-readme-stats-jov.vercel.app/api/top-langs/?username=jovylle&hide=css,scss,html&theme=onedark&hide_border=true&layout=compact&langs_count=8)](https://jovylle.com)
 
