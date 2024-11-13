@@ -36,6 +36,8 @@
 
 [![Top Languages](https://github-readme-stats-jov.vercel.app/api/top-langs/?username=jovylle&hide=css,scss,html&theme=onedark&hide_border=true&layout=compact&langs_count=8)](https://jovylle.com)
 
+[![](https://visitcount.itsvg.in/api?id=jovylle&label=looks&color=6&icon=5&pretty=false)](https://visitcount.itsvg.in)
+
 <h3>Old Github account</h3>
 
 [https://github.com/jovylle-old](https://github.com/jovyllebermudez-old)
