@@ -25,7 +25,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=B7FFD8&background=00000071&width=435&lines=Ctrl%2BZ+is+my+best+friend.)](https://git.io/typing-svg)
 
-[![An image of @jovylle's Holopin badges](https://holopin.me/jovyllebermudez?wahahah=hahehe)](https://jovylle.com)
+[![An image of @jovylle's Holopin badge](https://holopin.me/jovylle)](https://jovylle.com)
 
 
 <h2>Contributions</h2>
