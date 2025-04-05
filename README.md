@@ -1,6 +1,15 @@
 <p align="center"><strong style="font-size: 1.5rem;">Hey, I'm Jovylle</strong></p>
 <p align="center">Fullstack Web Developer · JS / PHP / Vue / React / Laravel · Since 2017</p>
 
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="40">
+  <text x="0" y="28"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
+    font-size="24" fill="#24292f" font-weight="bold">
+    Tech Stack
+  </text>
+</svg>
+
+
 <p align="center">
   <a href="https://jovylle.com" target="_blank">
     <img src="https://img.shields.io/badge/Visit%20Portfolio-000?style=for-the-badge&logo=firefox&logoColor=white" />
