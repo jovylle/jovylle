@@ -43,15 +43,3 @@
 
 [![Holopin](https://holopin.me/jovylle)](https://jovylle.com)
 
----
-
-<div style="font-size: 1.25rem; font-weight: bold">📫 Reach Out</div>
-
-- [Portfolio](https://jovylle.com)  
-- [Old GitHub](https://github.com/jovyllebermudez-old)
-
----
-
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=jovylle&label=Profile%20Views&color=6&icon=5&pretty=false" />
-</p>
