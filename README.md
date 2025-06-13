@@ -34,7 +34,7 @@
 ---
 <p align="center">
   <a href="https://jovylle.com" target="_blank">
-    <img src="https://holopin.me/jovylle" alt="Holopin" width="450" />
+    <img src="https://holopin.me/jovylle" alt="Holopin" width="400" />
   </a>
 </p>
 
