@@ -32,5 +32,8 @@
 </p>
 
 ---
-
-[![Holopin](https://holopin.me/jovylle)](https://jovylle.com)
+<div align="center" style="max-width: 300px; margin: 0 auto;">
+  <a href="https://jovylle.com" target="_blank">
+    <img src="https://holopin.me/jovylle" alt="Holopin" style="max-width: 300px;" />
+  </a>
+</div>
