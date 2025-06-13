@@ -13,14 +13,8 @@
 
 > `Ctrl+Z is my best friend.`
 
-- I ship real tools — used by real people  
-- Linux daily (Debian + SSH everything)  
-- Clean UI, fast builds, practical code  
-- Obsessed with automating things
-
----
-
-- ⚡ Created real utilities: AI chatbots, extensions, web tools, markdown CMS flows  
+- I like breaking things apart  
+- I poke around until something useful comes out
 
 ---
 
@@ -39,7 +33,4 @@
 
 ---
 
-<div style="font-size: 1.25rem; font-weight: bold">🏆 Holopin Board</div>
-
 [![Holopin](https://holopin.me/jovylle)](https://jovylle.com)
-
