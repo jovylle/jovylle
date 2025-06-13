@@ -32,8 +32,9 @@
 </p>
 
 ---
-<div align="center" style="max-width: 300px; margin: 0 auto;">
+<p align="center">
   <a href="https://jovylle.com" target="_blank">
-    <img src="https://holopin.me/jovylle" alt="Holopin" style="max-width: 300px;" />
+    <img src="https://holopin.me/jovylle" alt="Holopin" width="450" />
   </a>
-</div>
+</p>
+
