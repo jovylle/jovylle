@@ -36,6 +36,16 @@
 
 </p>
 
+
+---
+<p align="center">
+  <a href="https://jovylle.com" target="_blank">
+    <img src="https://holopin.me/jovylle" alt="Holopin" width="400" />
+  </a>
+</p>
+
+
+
 ---
 
 <div style="font-size: 1.25rem; font-weight: bold">🚀 Featured Projects</div>
@@ -56,21 +66,6 @@
     </p>
   </td>
   <td align="center" width="50%">
-    <h3><a href="https://stickfigure.uft1.com" target="_blank">drawingandjs</a></h3>
-    <p><strong>Language:</strong> JavaScript</p>
-    <p>No description available</p>
-    <p>
-      <a href="https://stickfigure.uft1.com" target="_blank">
-        <img src="https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge&logo=firefox&logoColor=white" />
-      </a>
-      <a href="https://github.com/jovylle/drawingandjs" target="_blank">
-        <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-    </p>
-  </td>
-</tr>
-<tr>
-  <td align="center" width="50%">
     <h3><a href="https://beta.d1g.uk" target="_blank">sfl-crab</a></h3>
     <p><strong>Language:</strong> TypeScript</p>
     <p>SFL Desert Digging Assistant</p>
@@ -83,12 +78,14 @@
       </a>
     </p>
   </td>
+</tr>
+<tr>
   <td align="center" width="50%">
-    <h3><a href="https://github.com/jovylle/py-pomodoro" target="_blank">py-pomodoro</a></h3>
+    <h3><a href="https://null" target="_blank">py-pomodoro</a></h3>
     <p><strong>Language:</strong> JavaScript</p>
     <p>No description available</p>
     <p>
-      <a href="https://github.com/jovylle/py-pomodoro" target="_blank">
+      <a href="https://null" target="_blank">
         <img src="https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge&logo=firefox&logoColor=white" />
       </a>
       <a href="https://github.com/jovylle/py-pomodoro" target="_blank">
@@ -96,8 +93,6 @@
       </a>
     </p>
   </td>
-</tr>
-<tr>
   <td align="center" width="50%">
     <h3><a href="https://uft1.com" target="_blank">wanabusful</a></h3>
     <p><strong>Language:</strong> JavaScript</p>
@@ -111,13 +106,15 @@
       </a>
     </p>
   </td>
+</tr>
+<tr>
   <td align="center" width="50%">
-    <h3><a href="https://github.com/jovylle/melvorite" target="_blank">melvorite</a></h3>
+    <h3><a href="https://null" target="_blank">melvorite</a></h3>
     <p><strong>Language:</strong> JavaScript</p>
-    <p>Melvor Idle 1.2 Helper Extensions</p>
+    <p>Melvor Idle 1.2 Helper Extensions https://chrome.google.com/webstore/search/jovylle</p>
     <p>
-      <a href="https://chrome.google.com/webstore/search/jovylle" target="_blank">
-        <img src="https://img.shields.io/badge/Chrome%20Store-000?style=for-the-badge&logo=googlechrome&logoColor=white" />
+      <a href="https://null" target="_blank">
+        <img src="https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge&logo=firefox&logoColor=white" />
       </a>
       <a href="https://github.com/jovylle/melvorite" target="_blank">
         <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -137,13 +134,4 @@
   <img src="https://img.shields.io/badge/Live%20Sites-25-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/GitHub%20Stars-11-yellow?style=for-the-badge" />
 </p>
-
----
-<p align="center">
-  <a href="https://jovylle.com" target="_blank">
-    <img src="https://holopin.me/jovylle" alt="Holopin" width="400" />
-  </a>
-</p>
-
-
 
