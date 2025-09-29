@@ -156,6 +156,10 @@ async function updateReadme() {
     const techStackRegex = /(🧰 Tech Stack<\/div>\n\n<p align="center">)([\s\S]*?)(\n<\/p>)/;
     readme = readme.replace(techStackRegex, `$1\n${techStackBadges}\n$3`);
 
+    // Remove any existing showcase/stats sections to prevent duplicates
+    readme = readme.replace(/---\n\n<div[^>]*>🚀 Featured Projects<\/div>[\s\S]*?(?=\n---\n<p align="center">[\s\S]*holopin\.me|$)/g, '');
+    readme = readme.replace(/---\n\n<div[^>]*>📊 Stats<\/div>[\s\S]*?(?=\n---\n<p align="center">[\s\S]*holopin\.me|$)/g, '');
+    
     // Add projects showcase before the final Holopin section
     const holoPinRegex = /(\n---\n<p align="center">[\s\S]*holopin\.me[\s\S]*<\/p>\n)$/;
     if (holoPinRegex.test(readme)) {
