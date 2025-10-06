@@ -48,79 +48,46 @@
 
 ---
 
-<div style="font-size: 1.25rem; font-weight: bold">🚀 Featured Projects</div>
+<div style="font-size: 1.25rem; font-weight: bold">🚀 Professional Highlights</div>
 
 <table align="center">
 <tr>
-  <td align="center" width="50%">
-    <h3><a href="https://jovylle.com/" target="_blank">jovylle.com</a></h3>
-    <p><strong>Language:</strong> Vue</p>
-    <p>No description available</p>
-    <p>
-      <a href="https://jovylle.com/" target="_blank">
-        <img src="https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge&logo=firefox&logoColor=white" />
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Chat Widget</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Chatbot / AI</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">A super-lightweight, open-source GPT-powered chatbot you can drop into any static site in seconds. Zero-config embed with just two `<script>` tags, serverless Netlify Function backend to proxy OpenAI calls, fully customizable UI, MIT-licensed, and supports per-user routes and analytics integrations.</p>    <p>
+      <a href="https://chat-widget.uft1.com" target="_blank">
+        <img src="https://img.shields.io/badge/View%20Project-000?style=for-the-badge&logo=firefox&logoColor=white" />
       </a>
-      <a href="https://github.com/jovylle/jovylle.com" target="_blank">
-        <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" />
+    </p>  </td>
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Game Tools & Community Feedback</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Game Dev Tools</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built tools for Sunflower Land & Phaser games with high usage. Collected user feedback for UX improvement. See feedbacks at https://d1g.uk/feedbacks or join our Discord under Digging Discussion: https://discord.com/invite/sunflowerland</p>    <p>
+      <a href="https://d1g.uk/feedbacks" target="_blank">
+        <img src="https://img.shields.io/badge/View%20Project-000?style=for-the-badge&logo=firefox&logoColor=white" />
       </a>
-    </p>
-  </td>
-  <td align="center" width="50%">
-    <h3><a href="https://beta.d1g.uk" target="_blank">sfl-crab</a></h3>
-    <p><strong>Language:</strong> TypeScript</p>
-    <p>SFL Desert Digging Assistant</p>
-    <p>
-      <a href="https://beta.d1g.uk" target="_blank">
-        <img src="https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge&logo=firefox&logoColor=white" />
-      </a>
-      <a href="https://github.com/jovylle/sfl-crab" target="_blank">
-        <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-    </p>
-  </td>
+    </p>  </td>
 </tr>
 <tr>
-  <td align="center" width="50%">
-    <h3><a href="https://null" target="_blank">py-pomodoro</a></h3>
-    <p><strong>Language:</strong> JavaScript</p>
-    <p>No description available</p>
-    <p>
-      <a href="https://null" target="_blank">
-        <img src="https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge&logo=firefox&logoColor=white" />
-      </a>
-      <a href="https://github.com/jovylle/py-pomodoro" target="_blank">
-        <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-    </p>
-  </td>
-  <td align="center" width="50%">
-    <h3><a href="https://uft1.com" target="_blank">wanabusful</a></h3>
-    <p><strong>Language:</strong> JavaScript</p>
-    <p>Hub of online tools</p>
-    <p>
-      <a href="https://uft1.com" target="_blank">
-        <img src="https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge&logo=firefox&logoColor=white" />
-      </a>
-      <a href="https://github.com/jovylle/wanabusful" target="_blank">
-        <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-    </p>
-  </td>
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Full Stack Deployment with Laravel & Next.js</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">DevOps / Full Stack</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Deployed full-stack apps on Linux/Nginx, managed MySQL, and used serverless APIs with Python + GCP.</p>  </td>
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Frontend UI/UX Craftsmanship</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Frontend</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built mobile-first sites with Tailwind, Vue, Nuxt, and Next.js. Integrated animations and executed clean Figma designs.</p>  </td>
 </tr>
 <tr>
-  <td align="center" width="50%">
-    <h3><a href="https://null" target="_blank">melvorite</a></h3>
-    <p><strong>Language:</strong> JavaScript</p>
-    <p>Melvor Idle 1.2 Helper Extensions https://chrome.google.com/webstore/search/jovylle</p>
-    <p>
-      <a href="https://null" target="_blank">
-        <img src="https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge&logo=firefox&logoColor=white" />
-      </a>
-      <a href="https://github.com/jovylle/melvorite" target="_blank">
-        <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-    </p>
-  </td>
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Real-Time API Integrations</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">API / Realtime</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Integrated OpenAI, OpenWeather, and game APIs. Automated data fetch with Puppeteer.</p>  </td>
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Chrome Extensions with Game Automation</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Extensions</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Created browser extensions for Melvor & Sunflower Land. Injected logic to DOM for automation. 100+ users.</p>  </td>
 </tr>
 </table>
 
