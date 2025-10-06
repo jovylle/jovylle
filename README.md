@@ -99,6 +99,5 @@
   <img src="https://img.shields.io/badge/Projects-100-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-12-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-25-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/GitHub%20Stars-11-yellow?style=for-the-badge" />
 </p>
 

@@ -151,7 +151,6 @@ function generateStatsSection(projects) {
   const totalProjects = projects.length;
   const languages = new Set(projects.map(p => p.language).filter(Boolean)).size;
   const liveProjects = projects.filter(p => p.live || p.netlify_live).length;
-  const totalStars = projects.reduce((sum, p) => sum + (p.stars || 0), 0);
 
   return `---
 
@@ -161,7 +160,6 @@ function generateStatsSection(projects) {
   <img src="https://img.shields.io/badge/Projects-${totalProjects}-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-${languages}-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-${liveProjects}-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/GitHub%20Stars-${totalStars}-yellow?style=for-the-badge" />
 </p>
 
 `;
