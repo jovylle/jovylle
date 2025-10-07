@@ -22,10 +22,16 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" />
+  <img src="https://img.shields.io/badge/Blade-000000?style=for-the-badge&logo=blade&logoColor=white" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Just-000000?style=for-the-badge&logo=just&logoColor=white" />
+  <img src="https://img.shields.io/badge/Objective-C-000000?style=for-the-badge&logo=objective-c&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=powershell&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
   <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=scss&logoColor=white" />
@@ -63,8 +69,8 @@
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Game Tools & Community Feedback</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Game Dev Tools</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built tools for Sunflower Land & Phaser games with high usage. Collected user feedback for UX improvement. See feedbacks at https://d1g.uk/feedbacks or join our Discord under Digging Discussion: https://discord.com/invite/sunflowerland</p>    <p>
-      <a href="https://d1g.uk/feedbacks" target="_blank">
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built sfl.uft1.com - a real-time game assistant used daily by hundreds of Sunflower Land players. Created Vue 3/Vite tools with game API integration for strategy optimization. Collected community feedback for continuous UX improvement.</p>    <p>
+      <a href="https://sfl.uft1.com" target="_blank">
         <img src="https://img.shields.io/badge/View%20Project-000?style=for-the-badge&logo=firefox&logoColor=white" />
       </a>
     </p>  </td>
@@ -77,7 +83,7 @@
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Frontend UI/UX Craftsmanship</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Frontend</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built mobile-first sites with Tailwind, Vue, Nuxt, and Next.js. Integrated animations and executed clean Figma designs.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Expert in converting Figma designs to pixel-perfect responsive interfaces using Vue 3, Nuxt, React, and TailwindCSS. Implemented GSAP/Sal.js animations and mobile-first architectures for optimal user experiences.</p>  </td>
 </tr>
 <tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
@@ -87,7 +93,7 @@
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Chrome Extensions with Game Automation</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Extensions</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Created browser extensions for Melvor & Sunflower Land. Injected logic to DOM for automation. 100+ users.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Created browser extensions for Melvor Idle (5.0★ rating) & Sunflower Land with 200+ active users. Built DOM injection, hotkey bindings, task automation, and local storage management for enhanced gameplay experiences.</p>  </td>
 </tr>
 </table>
 
@@ -96,8 +102,8 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-100-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-12-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-25-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-184-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-18-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-43-orange?style=for-the-badge" />
 </p>
 
