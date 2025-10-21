@@ -178,7 +178,7 @@ function generateReactionLeaderboard(reactionData) {
 
   let leaderboard = `---
 
-<div style="font-size: 1.25rem; font-weight: bold; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">⚡ Reaction Game Leaderboard</div>
+<div style="font-size: 1.25rem; font-weight: bold; color: #2F81F7;">⚡ Reaction Game Leaderboard</div>
 
 <div align="center" style="margin: 20px 0;">
   <a href="https://playbase.netlify.app" target="_blank">
@@ -190,18 +190,16 @@ function generateReactionLeaderboard(reactionData) {
   </div>
 </div>
 
-<!-- Desktop Table -->
-<div class="desktop-table" style="display: block;">
-  <table align="center" style="border-collapse: collapse; width: 100%; max-width: 700px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 12px; overflow: hidden;">
-    <thead>
-      <tr style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
-        <th style="padding: 16px 12px; text-align: center; font-weight: 600; font-size: 1.1em;">🏆</th>
-        <th style="padding: 16px 12px; text-align: left; font-weight: 600; font-size: 1.1em;">Player</th>
-        <th style="padding: 16px 12px; text-align: center; font-weight: 600; font-size: 1.1em;">Time</th>
-        <th style="padding: 16px 12px; text-align: center; font-weight: 600; font-size: 1.1em;">Date</th>
-      </tr>
-    </thead>
-    <tbody>`;
+<table align="center" style="border-collapse: collapse; width: 100%; max-width: 600px;">
+  <thead>
+    <tr style="background: #f6f8fa;">
+      <th style="padding: 12px; text-align: center; border: 1px solid #d0d7de;">🏆</th>
+      <th style="padding: 12px; text-align: left; border: 1px solid #d0d7de;">Player</th>
+      <th style="padding: 12px; text-align: center; border: 1px solid #d0d7de;">Time</th>
+      <th style="padding: 12px; text-align: center; border: 1px solid #d0d7de;">Date</th>
+    </tr>
+  </thead>
+  <tbody>`;
 
   const medals = ['🥇', '🥈', '🥉', '4️⃣', '5️⃣'];
   
@@ -209,58 +207,21 @@ function generateReactionLeaderboard(reactionData) {
     const date = new Date(score.timestamp).toLocaleDateString();
     const medal = medals[index] || `${index + 1}️⃣`;
     const isBestScore = score.ms === bestScore;
-    const rowBg = index % 2 === 0 ? '#ffffff' : '#f8f9fa';
+    const rowBg = index % 2 === 0 ? '#ffffff' : '#f6f8fa';
     const scoreColor = score.ms < 200 ? '#28a745' : score.ms < 300 ? '#ffc107' : '#dc3545';
     
     leaderboard += `
-      <tr style="background: ${rowBg}; transition: all 0.2s ease;">
-        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 1.3em;">${medal}</td>
-        <td style="padding: 14px 12px; text-align: left; border-bottom: 1px solid #e9ecef; font-weight: 500; font-size: 1.05em;">${score.playerName}</td>
-        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-weight: bold; font-size: 1.1em; color: ${scoreColor}; ${isBestScore ? 'background: rgba(40, 167, 69, 0.1); border-radius: 6px;' : ''}">${score.ms}ms</td>
-        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 0.9em; color: #666;">${date}</td>
-      </tr>`;
+    <tr style="background: ${rowBg};">
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">${medal}</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">${score.playerName}</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: ${scoreColor}; ${isBestScore ? 'background: #e6ffed;' : ''}">${score.ms}ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">${date}</td>
+    </tr>`;
   });
 
   leaderboard += `
-    </tbody>
-  </table>
-</div>
-
-<!-- Mobile Cards -->
-<div class="mobile-cards" style="display: none;">
-  <div style="max-width: 400px; margin: 0 auto;">`;
-
-  topScores.forEach((score, index) => {
-    const date = new Date(score.timestamp).toLocaleDateString();
-    const medal = medals[index] || `${index + 1}️⃣`;
-    const isBestScore = score.ms === bestScore;
-    const scoreColor = score.ms < 200 ? '#28a745' : score.ms < 300 ? '#ffc107' : '#dc3545';
-    
-    leaderboard += `
-    <div style="background: white; margin: 8px 0; padding: 16px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-left: 4px solid ${scoreColor};">
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-        <span style="font-size: 1.5em;">${medal}</span>
-        <span style="font-weight: bold; font-size: 1.2em; color: ${scoreColor}; ${isBestScore ? 'background: rgba(40, 167, 69, 0.1); padding: 4px 8px; border-radius: 6px;' : ''}">${score.ms}ms</span>
-      </div>
-      <div style="font-weight: 500; font-size: 1.1em; margin-bottom: 4px;">${score.playerName}</div>
-      <div style="font-size: 0.9em; color: #666;">${date}</div>
-    </div>`;
-  });
-
-  leaderboard += `
-  </div>
-</div>
-
-<style>
-  @media (max-width: 768px) {
-    .desktop-table { display: none !important; }
-    .mobile-cards { display: block !important; }
-  }
-  @media (min-width: 769px) {
-    .desktop-table { display: block !important; }
-    .mobile-cards { display: none !important; }
-  }
-</style>
+  </tbody>
+</table>
 
 <p align="center" style="margin-top: 24px; font-size: 0.9em; color: #666; background: #f8f9fa; padding: 12px; border-radius: 8px;">
   <em>🚀 Fastest reaction times from my GitHub-powered game platform</em>
