@@ -99,10 +99,132 @@
 
 ---
 
+<div style="font-size: 1.25rem; font-weight: bold; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">⚡ Reaction Game Leaderboard</div>
+
+<div align="center" style="margin: 20px 0;">
+  <a href="https://playbase.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/🎮%20Play%20Game-FF6B6B?style=for-the-badge&logo=gamepad2&logoColor=white&labelColor=FF6B6B&color=white" />
+  </a>
+  <br>
+  <div style="margin-top: 8px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
+    🏆 Best: 363ms • 📅 Updated: 10/21/2025
+  </div>
+</div>
+
+<!-- Desktop Table -->
+<div class="desktop-table" style="display: block;">
+  <table align="center" style="border-collapse: collapse; width: 100%; max-width: 700px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 12px; overflow: hidden;">
+    <thead>
+      <tr style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+        <th style="padding: 16px 12px; text-align: center; font-weight: 600; font-size: 1.1em;">🏆</th>
+        <th style="padding: 16px 12px; text-align: left; font-weight: 600; font-size: 1.1em;">Player</th>
+        <th style="padding: 16px 12px; text-align: center; font-weight: 600; font-size: 1.1em;">Time</th>
+        <th style="padding: 16px 12px; text-align: center; font-weight: 600; font-size: 1.1em;">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background: #ffffff; transition: all 0.2s ease;">
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 1.3em;">🥇</td>
+        <td style="padding: 14px 12px; text-align: left; border-bottom: 1px solid #e9ecef; font-weight: 500; font-size: 1.05em;">FlashPro5</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-weight: bold; font-size: 1.1em; color: #dc3545; background: rgba(40, 167, 69, 0.1); border-radius: 6px;">363ms</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 0.9em; color: #666;">10/21/2025</td>
+      </tr>
+      <tr style="background: #f8f9fa; transition: all 0.2s ease;">
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 1.3em;">🥈</td>
+        <td style="padding: 14px 12px; text-align: left; border-bottom: 1px solid #e9ecef; font-weight: 500; font-size: 1.05em;">FlashPro5</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-weight: bold; font-size: 1.1em; color: #dc3545; ">369ms</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 0.9em; color: #666;">10/21/2025</td>
+      </tr>
+      <tr style="background: #ffffff; transition: all 0.2s ease;">
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 1.3em;">🥉</td>
+        <td style="padding: 14px 12px; text-align: left; border-bottom: 1px solid #e9ecef; font-weight: 500; font-size: 1.05em;">FlashPro5</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-weight: bold; font-size: 1.1em; color: #dc3545; ">370ms</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 0.9em; color: #666;">10/21/2025</td>
+      </tr>
+      <tr style="background: #f8f9fa; transition: all 0.2s ease;">
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 1.3em;">4️⃣</td>
+        <td style="padding: 14px 12px; text-align: left; border-bottom: 1px solid #e9ecef; font-weight: 500; font-size: 1.05em;">SpeedRunner</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-weight: bold; font-size: 1.1em; color: #dc3545; ">378ms</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 0.9em; color: #666;">10/21/2025</td>
+      </tr>
+      <tr style="background: #ffffff; transition: all 0.2s ease;">
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 1.3em;">5️⃣</td>
+        <td style="padding: 14px 12px; text-align: left; border-bottom: 1px solid #e9ecef; font-weight: 500; font-size: 1.05em;">SpeedDemon</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-weight: bold; font-size: 1.1em; color: #dc3545; ">380ms</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 0.9em; color: #666;">1/15/2025</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Mobile Cards -->
+<div class="mobile-cards" style="display: none;">
+  <div style="max-width: 400px; margin: 0 auto;">
+    <div style="background: white; margin: 8px 0; padding: 16px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-left: 4px solid #dc3545;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span style="font-size: 1.5em;">🥇</span>
+        <span style="font-weight: bold; font-size: 1.2em; color: #dc3545; background: rgba(40, 167, 69, 0.1); padding: 4px 8px; border-radius: 6px;">363ms</span>
+      </div>
+      <div style="font-weight: 500; font-size: 1.1em; margin-bottom: 4px;">FlashPro5</div>
+      <div style="font-size: 0.9em; color: #666;">10/21/2025</div>
+    </div>
+    <div style="background: white; margin: 8px 0; padding: 16px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-left: 4px solid #dc3545;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span style="font-size: 1.5em;">🥈</span>
+        <span style="font-weight: bold; font-size: 1.2em; color: #dc3545; ">369ms</span>
+      </div>
+      <div style="font-weight: 500; font-size: 1.1em; margin-bottom: 4px;">FlashPro5</div>
+      <div style="font-size: 0.9em; color: #666;">10/21/2025</div>
+    </div>
+    <div style="background: white; margin: 8px 0; padding: 16px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-left: 4px solid #dc3545;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span style="font-size: 1.5em;">🥉</span>
+        <span style="font-weight: bold; font-size: 1.2em; color: #dc3545; ">370ms</span>
+      </div>
+      <div style="font-weight: 500; font-size: 1.1em; margin-bottom: 4px;">FlashPro5</div>
+      <div style="font-size: 0.9em; color: #666;">10/21/2025</div>
+    </div>
+    <div style="background: white; margin: 8px 0; padding: 16px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-left: 4px solid #dc3545;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span style="font-size: 1.5em;">4️⃣</span>
+        <span style="font-weight: bold; font-size: 1.2em; color: #dc3545; ">378ms</span>
+      </div>
+      <div style="font-weight: 500; font-size: 1.1em; margin-bottom: 4px;">SpeedRunner</div>
+      <div style="font-size: 0.9em; color: #666;">10/21/2025</div>
+    </div>
+    <div style="background: white; margin: 8px 0; padding: 16px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-left: 4px solid #dc3545;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span style="font-size: 1.5em;">5️⃣</span>
+        <span style="font-weight: bold; font-size: 1.2em; color: #dc3545; ">380ms</span>
+      </div>
+      <div style="font-weight: 500; font-size: 1.1em; margin-bottom: 4px;">SpeedDemon</div>
+      <div style="font-size: 0.9em; color: #666;">1/15/2025</div>
+    </div>
+  </div>
+</div>
+
+<style>
+  @media (max-width: 768px) {
+    .desktop-table { display: none !important; }
+    .mobile-cards { display: block !important; }
+  }
+  @media (min-width: 769px) {
+    .desktop-table { display: block !important; }
+    .mobile-cards { display: none !important; }
+  }
+</style>
+
+<p align="center" style="margin-top: 24px; font-size: 0.9em; color: #666; background: #f8f9fa; padding: 12px; border-radius: 8px;">
+  <em>🚀 Fastest reaction times from my GitHub-powered game platform</em>
+  <br><small style="color: #999;">Built with GitHub as a database • Real-time updates</small>
+</p>
+
+---
+
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-189-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-190-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-18-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-45-orange?style=for-the-badge" />
 </p>
