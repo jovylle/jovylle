@@ -107,7 +107,7 @@
   </a>
   <br>
   <div style="margin-top: 8px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
-    🏆 Best: 363ms • 📅 Updated: 10/22/2025
+    🏆 Best: 363ms • 📅 Updated: 10/21/2025
   </div>
 </div>
 
@@ -145,7 +145,7 @@
         <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 1.3em;">4️⃣</td>
         <td style="padding: 14px 12px; text-align: left; border-bottom: 1px solid #e9ecef; font-weight: 500; font-size: 1.05em;">SpeedRunner</td>
         <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-weight: bold; font-size: 1.1em; color: #dc3545; ">378ms</td>
-        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 0.9em; color: #666;">10/22/2025</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 0.9em; color: #666;">10/21/2025</td>
       </tr>
       <tr style="background: #ffffff; transition: all 0.2s ease;">
         <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 1.3em;">5️⃣</td>
@@ -190,7 +190,7 @@
         <span style="font-weight: bold; font-size: 1.2em; color: #dc3545; ">378ms</span>
       </div>
       <div style="font-weight: 500; font-size: 1.1em; margin-bottom: 4px;">SpeedRunner</div>
-      <div style="font-size: 0.9em; color: #666;">10/22/2025</div>
+      <div style="font-size: 0.9em; color: #666;">10/21/2025</div>
     </div>
     <div style="background: white; margin: 8px 0; padding: 16px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-left: 4px solid #dc3545;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
