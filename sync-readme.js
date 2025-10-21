@@ -5,6 +5,7 @@ const fs = require('fs');
 
 const API_URL = 'https://pocket.uft1.com/data/personal-projects.json';
 const HIGHLIGHTS_URL = 'https://pocket.uft1.com/data/highlights.json';
+const REACTION_API_URL = 'https://raw.githubusercontent.com/jovylle/playbase/master/reaction/top.json';
 
 // Language to badge color mapping
 const languageColors = {
@@ -50,6 +51,29 @@ async function fetchProjectsData() {
 async function fetchHighlightsData() {
   return new Promise((resolve, reject) => {
     https.get(HIGHLIGHTS_URL, (res) => {
+      let data = '';
+      
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+      
+      res.on('end', () => {
+        try {
+          const jsonData = JSON.parse(data);
+          resolve(jsonData);
+        } catch (error) {
+          reject(error);
+        }
+      });
+    }).on('error', (error) => {
+      reject(error);
+    });
+  });
+}
+
+async function fetchReactionData() {
+  return new Promise((resolve, reject) => {
+    https.get(REACTION_API_URL, (res) => {
       let data = '';
       
       res.on('data', (chunk) => {
@@ -147,6 +171,107 @@ function generateHighlightsShowcase(highlightsData) {
   return showcase;
 }
 
+function generateReactionLeaderboard(reactionData) {
+  const topScores = reactionData.top.slice(0, 5); // Show top 5
+  const lastUpdated = new Date(reactionData.last_updated).toLocaleDateString();
+  const bestScore = Math.min(...reactionData.top.map(s => s.ms));
+
+  let leaderboard = `---
+
+<div style="font-size: 1.25rem; font-weight: bold; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">⚡ Reaction Game Leaderboard</div>
+
+<div align="center" style="margin: 20px 0;">
+  <a href="https://playbase.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/🎮%20Play%20Game-FF6B6B?style=for-the-badge&logo=gamepad2&logoColor=white&labelColor=FF6B6B&color=white" />
+  </a>
+  <br>
+  <div style="margin-top: 8px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
+    🏆 Best: ${bestScore}ms • 📅 Updated: ${lastUpdated}
+  </div>
+</div>
+
+<!-- Desktop Table -->
+<div class="desktop-table" style="display: block;">
+  <table align="center" style="border-collapse: collapse; width: 100%; max-width: 700px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 12px; overflow: hidden;">
+    <thead>
+      <tr style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+        <th style="padding: 16px 12px; text-align: center; font-weight: 600; font-size: 1.1em;">🏆</th>
+        <th style="padding: 16px 12px; text-align: left; font-weight: 600; font-size: 1.1em;">Player</th>
+        <th style="padding: 16px 12px; text-align: center; font-weight: 600; font-size: 1.1em;">Time</th>
+        <th style="padding: 16px 12px; text-align: center; font-weight: 600; font-size: 1.1em;">Date</th>
+      </tr>
+    </thead>
+    <tbody>`;
+
+  const medals = ['🥇', '🥈', '🥉', '4️⃣', '5️⃣'];
+  
+  topScores.forEach((score, index) => {
+    const date = new Date(score.timestamp).toLocaleDateString();
+    const medal = medals[index] || `${index + 1}️⃣`;
+    const isBestScore = score.ms === bestScore;
+    const rowBg = index % 2 === 0 ? '#ffffff' : '#f8f9fa';
+    const scoreColor = score.ms < 200 ? '#28a745' : score.ms < 300 ? '#ffc107' : '#dc3545';
+    
+    leaderboard += `
+      <tr style="background: ${rowBg}; transition: all 0.2s ease;">
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 1.3em;">${medal}</td>
+        <td style="padding: 14px 12px; text-align: left; border-bottom: 1px solid #e9ecef; font-weight: 500; font-size: 1.05em;">${score.playerName}</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-weight: bold; font-size: 1.1em; color: ${scoreColor}; ${isBestScore ? 'background: rgba(40, 167, 69, 0.1); border-radius: 6px;' : ''}">${score.ms}ms</td>
+        <td style="padding: 14px 12px; text-align: center; border-bottom: 1px solid #e9ecef; font-size: 0.9em; color: #666;">${date}</td>
+      </tr>`;
+  });
+
+  leaderboard += `
+    </tbody>
+  </table>
+</div>
+
+<!-- Mobile Cards -->
+<div class="mobile-cards" style="display: none;">
+  <div style="max-width: 400px; margin: 0 auto;">`;
+
+  topScores.forEach((score, index) => {
+    const date = new Date(score.timestamp).toLocaleDateString();
+    const medal = medals[index] || `${index + 1}️⃣`;
+    const isBestScore = score.ms === bestScore;
+    const scoreColor = score.ms < 200 ? '#28a745' : score.ms < 300 ? '#ffc107' : '#dc3545';
+    
+    leaderboard += `
+    <div style="background: white; margin: 8px 0; padding: 16px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-left: 4px solid ${scoreColor};">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span style="font-size: 1.5em;">${medal}</span>
+        <span style="font-weight: bold; font-size: 1.2em; color: ${scoreColor}; ${isBestScore ? 'background: rgba(40, 167, 69, 0.1); padding: 4px 8px; border-radius: 6px;' : ''}">${score.ms}ms</span>
+      </div>
+      <div style="font-weight: 500; font-size: 1.1em; margin-bottom: 4px;">${score.playerName}</div>
+      <div style="font-size: 0.9em; color: #666;">${date}</div>
+    </div>`;
+  });
+
+  leaderboard += `
+  </div>
+</div>
+
+<style>
+  @media (max-width: 768px) {
+    .desktop-table { display: none !important; }
+    .mobile-cards { display: block !important; }
+  }
+  @media (min-width: 769px) {
+    .desktop-table { display: block !important; }
+    .mobile-cards { display: none !important; }
+  }
+</style>
+
+<p align="center" style="margin-top: 24px; font-size: 0.9em; color: #666; background: #f8f9fa; padding: 12px; border-radius: 8px;">
+  <em>🚀 Fastest reaction times from my GitHub-powered game platform</em>
+  <br><small style="color: #999;">Built with GitHub as a database • Real-time updates</small>
+</p>
+
+`;
+
+  return leaderboard;
+}
+
 function generateStatsSection(projects) {
   const totalProjects = projects.length;
   const languages = new Set(projects.map(p => p.language).filter(Boolean)).size;
@@ -173,7 +298,10 @@ async function updateReadme() {
     console.log('🔄 Fetching highlights data...');
     const highlightsData = await fetchHighlightsData();
     
-    console.log(`📊 Found ${projectsData.projects.length} projects and ${highlightsData.highlights.length} highlights`);
+    console.log('🔄 Fetching reaction game data...');
+    const reactionData = await fetchReactionData();
+    
+    console.log(`📊 Found ${projectsData.projects.length} projects, ${highlightsData.highlights.length} highlights, and ${reactionData.top.length} reaction scores`);
 
     // Read current README
     const readmePath = './README.md';
@@ -182,23 +310,25 @@ async function updateReadme() {
     // Generate new sections
     const techStackBadges = generateTechStackBadges(projectsData.projects);
     const highlightsShowcase = generateHighlightsShowcase(highlightsData);
+    const reactionLeaderboard = generateReactionLeaderboard(reactionData);
     const statsSection = generateStatsSection(projectsData.projects);
 
     // Replace tech stack section (between Tech Stack header and next ---)
     const techStackRegex = /(🧰 Tech Stack<\/div>\n\n<p align="center">)([\s\S]*?)(\n<\/p>)/;
     readme = readme.replace(techStackRegex, `$1\n${techStackBadges}\n$3`);
 
-    // Remove any existing showcase/stats sections to prevent duplicates
+    // Remove any existing showcase/stats/leaderboard sections to prevent duplicates
     readme = readme.replace(/---\n\n<div[^>]*>🚀 (?:Professional Highlights|Featured Projects)<\/div>[\s\S]*?(?=\n---\n<div|---\n<p align="center">[\s\S]*holopin\.me|$)/g, '');
+    readme = readme.replace(/---\n\n<div[^>]*>⚡ Reaction Game Leaderboard<\/div>[\s\S]*?(?=\n---\n<div|---\n<p align="center">[\s\S]*holopin\.me|$)/g, '');
     readme = readme.replace(/---\n\n<div[^>]*>📊 Stats<\/div>[\s\S]*?(?=\n---\n<div|---\n<p align="center">[\s\S]*holopin\.me|$)/g, '');
     
-    // Add highlights showcase before the final Holopin section
+    // Add sections before the final Holopin section
     const holoPinRegex = /(\n---\n<p align="center">[\s\S]*holopin\.me[\s\S]*<\/p>\n)$/;
     if (holoPinRegex.test(readme)) {
-      readme = readme.replace(holoPinRegex, `${highlightsShowcase}${statsSection}$1`);
+      readme = readme.replace(holoPinRegex, `${highlightsShowcase}${reactionLeaderboard}${statsSection}$1`);
     } else {
       // If no Holopin section, add at the end
-      readme += highlightsShowcase + statsSection;
+      readme += highlightsShowcase + reactionLeaderboard + statsSection;
     }
 
     // Write updated README
@@ -207,6 +337,7 @@ async function updateReadme() {
     console.log('✅ README.md updated successfully!');
     console.log(`   - Updated tech stack with ${new Set(projectsData.projects.map(p => p.language).filter(Boolean)).size} languages`);
     console.log(`   - Added ${highlightsData.highlights.length} professional highlights`);
+    console.log(`   - Added reaction game leaderboard with ${reactionData.top.length} scores`);
     console.log(`   - Generated stats section`);
 
   } catch (error) {
