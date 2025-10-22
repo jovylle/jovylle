@@ -93,15 +93,14 @@
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Chrome Extensions with Game Automation</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Extensions</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Created browser extensions for Melvor Idle (5.0��� rating) & Sunflower Land with 200+ active users. Built DOM injection, hotkey bindings, task automation, and local storage management for enhanced gameplay experiences.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Created browser extensions for Melvor Idle (5.0★ rating) & Sunflower Land with 200+ active users. Built DOM injection, hotkey bindings, task automation, and local storage management for enhanced gameplay experiences.</p>  </td>
 </tr>
 </table>
 
 ---
 
 <div align="center" style="margin-bottom: 20px;">
-  <div style="font-size: 1.5rem; font-weight: bold; color: #2F81F7; margin-bottom: 8px;">⚡ Reaction Game Leaderboard</div>
-  <div style="font-size: 0.9em; color: #666; background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 600;">🏆 Lightning Fast • Real-Time Competition • GitHub Powered</div>
+  <div style="font-size: 1.5rem; font-weight: bold; color: #2F81F7;">⚡ Reaction Game Leaderboard</div>
 </div>
 
 <div align="center" style="margin: 20px 0;">
@@ -128,39 +127,37 @@
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥇</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveBard</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; background: #e6ffed;">339ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
     </tr>
     <tr style="background: #f6f8fa;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥈</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveMonk222</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">344ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
+    </tr>
+    <tr style="background: #ffffff;">
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥉</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveMonk222</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">361ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
+    </tr>
+    <tr style="background: #f6f8fa;">
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">4️⃣</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">FlashPro5</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">363ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
     </tr>
     <tr style="background: #ffffff;">
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥉</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">5️⃣</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">FlashPro5</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">369ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
-    </tr>
-    <tr style="background: #f6f8fa;">
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">4️⃣</td>
-      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">FlashPro5</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">370ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
-    </tr>
-    <tr style="background: #ffffff;">
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">5️⃣</td>
-      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">SpeedRunner</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">378ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
     </tr>
   </tbody>
 </table>
 
-<p align="center" style="margin-top: 24px; font-size: 0.9em; color: #666; background: #f8f9fa; padding: 12px; border-radius: 8px;">
-  <em>🚀 Fastest reaction times from my GitHub-powered game platform</em>
-  <br><small style="color: #999;">Built with GitHub as a database • Real-time updates</small>
-  <br><small style="color: #ff6b6b; font-weight: 500;">🔄 Leaderboard resets every 3 months for fresh competition!</small>
+<p align="center" style="margin-top: 20px; font-size: 0.85em; color: #666;">
+  <small style="color: #ff6b6b; font-weight: 500;">🔄 Resets every 3 months</small>
 </p>
 
 ---

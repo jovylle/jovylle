@@ -179,8 +179,7 @@ function generateReactionLeaderboard(reactionData) {
   let leaderboard = `---
 
 <div align="center" style="margin-bottom: 20px;">
-  <div style="font-size: 1.5rem; font-weight: bold; color: #2F81F7; margin-bottom: 8px;">⚡ Reaction Game Leaderboard</div>
-  <div style="font-size: 0.9em; color: #666; background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 600;">🏆 Lightning Fast • Real-Time Competition • GitHub Powered</div>
+  <div style="font-size: 1.5rem; font-weight: bold; color: #2F81F7;">⚡ Reaction Game Leaderboard</div>
 </div>
 
 <div align="center" style="margin: 20px 0;">
@@ -226,10 +225,8 @@ function generateReactionLeaderboard(reactionData) {
   </tbody>
 </table>
 
-<p align="center" style="margin-top: 24px; font-size: 0.9em; color: #666; background: #f8f9fa; padding: 12px; border-radius: 8px;">
-  <em>🚀 Fastest reaction times from my GitHub-powered game platform</em>
-  <br><small style="color: #999;">Built with GitHub as a database • Real-time updates</small>
-  <br><small style="color: #ff6b6b; font-weight: 500;">🔄 Leaderboard resets every 3 months for fresh competition!</small>
+<p align="center" style="margin-top: 20px; font-size: 0.85em; color: #666;">
+  <small style="color: #ff6b6b; font-weight: 500;">🔄 Resets every 3 months</small>
 </p>
 
 `;
