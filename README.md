@@ -105,7 +105,7 @@
 
 <div align="center" style="margin: 20px 0;">
   <a href="https://fast.jovylle.com" target="_blank">
-    <img src="./game1.png" alt="Reaction Test Game - Click when it turns RED!" style="max-width: 400px; width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 16px;" />
+    <img src="./game1.png" alt="Reaction Test Game - Click when it turns RED!" style="max-width: 300px; width: 50%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 16px;" />
   </a>
   <br>
   <a href="https://fast.jovylle.com" target="_blank">
