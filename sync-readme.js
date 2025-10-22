@@ -178,10 +178,13 @@ function generateReactionLeaderboard(reactionData) {
 
   let leaderboard = `---
 
-<div style="font-size: 1.25rem; font-weight: bold; color: #2F81F7;">⚡ Reaction Game Leaderboard</div>
+<div align="center" style="margin-bottom: 20px;">
+  <div style="font-size: 1.5rem; font-weight: bold; color: #2F81F7; margin-bottom: 8px;">⚡ Reaction Game Leaderboard</div>
+  <div style="font-size: 0.9em; color: #666; background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 600;">🏆 Lightning Fast • Real-Time Competition • GitHub Powered</div>
+</div>
 
 <div align="center" style="margin: 20px 0;">
-  <a href="https://playbase.netlify.app" target="_blank">
+  <a href="https://fast.jovylle.com" target="_blank">
     <img src="https://img.shields.io/badge/🎮%20Play%20Game-FF6B6B?style=for-the-badge&logo=gamepad2&logoColor=white&labelColor=FF6B6B&color=white" />
   </a>
   <br>

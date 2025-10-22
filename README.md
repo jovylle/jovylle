@@ -99,19 +99,18 @@
 
 ---
 
-<div style="font-size: 1.25rem; font-weight: bold; color: #2F81F7;">⚡ Reaction Game Leaderboard</div>
+<div align="center" style="margin-bottom: 20px;">
+  <div style="font-size: 1.5rem; font-weight: bold; color: #2F81F7; margin-bottom: 8px;">⚡ Reaction Game Leaderboard</div>
+  <div style="font-size: 0.9em; color: #666; background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 600;">🏆 Lightning Fast • Real-Time Competition • GitHub Powered</div>
+</div>
 
 <div align="center" style="margin: 20px 0;">
-  <a href="https://playbase.netlify.app" target="_blank">
+  <a href="https://fast.jovylle.com" target="_blank">
     <img src="https://img.shields.io/badge/🎮%20Play%20Game-FF6B6B?style=for-the-badge&logo=gamepad2&logoColor=white&labelColor=FF6B6B&color=white" />
   </a>
   <br>
   <div style="margin-top: 8px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
-<<<<<<< HEAD
     🏆 Best: 339ms • 📅 Updated: 10/22/2025
-=======
-    🏆 Best: 339ms • 📅 Updated: 10/21/2025
->>>>>>> d423da7a42f69a36542c363fe191f92592495187
   </div>
 </div>
 
@@ -129,11 +128,7 @@
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥇</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveBard</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; background: #e6ffed;">339ms</td>
-<<<<<<< HEAD
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
-=======
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
->>>>>>> d423da7a42f69a36542c363fe191f92592495187
     </tr>
     <tr style="background: #f6f8fa;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥈</td>
