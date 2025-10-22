@@ -107,11 +107,7 @@
   </a>
   <br>
   <div style="margin-top: 8px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
-<<<<<<< HEAD
     🏆 Best: 339ms • 📅 Updated: 10/22/2025
-=======
-    🏆 Best: 339ms • 📅 Updated: 10/21/2025
->>>>>>> 82eea3c9d500bea9724d2fa0e2ba1cb4f1057e30
   </div>
 </div>
 
@@ -129,11 +125,7 @@
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥇</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveBard</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; background: #e6ffed;">339ms</td>
-<<<<<<< HEAD
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
-=======
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
->>>>>>> 82eea3c9d500bea9724d2fa0e2ba1cb4f1057e30
     </tr>
     <tr style="background: #f6f8fa;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥈</td>
@@ -157,11 +149,7 @@
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">5️⃣</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">SpeedRunner</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">378ms</td>
-<<<<<<< HEAD
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
-=======
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
->>>>>>> 82eea3c9d500bea9724d2fa0e2ba1cb4f1057e30
     </tr>
   </tbody>
 </table>
@@ -169,7 +157,7 @@
 <p align="center" style="margin-top: 24px; font-size: 0.9em; color: #666; background: #f8f9fa; padding: 12px; border-radius: 8px;">
   <em>🚀 Fastest reaction times from my GitHub-powered game platform</em>
   <br><small style="color: #999;">Built with GitHub as a database • Real-time updates</small>
-  <br><small style="color: #ff6b6b; font-weight: 500;">🔄 Leaderboard resets every season for fresh competition!</small>
+  <br><small style="color: #ff6b6b; font-weight: 500;">🔄 Leaderboard resets every 3 months for fresh competition!</small>
 </p>
 
 ---
