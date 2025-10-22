@@ -107,7 +107,11 @@
   </a>
   <br>
   <div style="margin-top: 8px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
+<<<<<<< HEAD
     🏆 Best: 339ms • 📅 Updated: 10/22/2025
+=======
+    🏆 Best: 339ms • 📅 Updated: 10/21/2025
+>>>>>>> d423da7a42f69a36542c363fe191f92592495187
   </div>
 </div>
 
@@ -125,7 +129,11 @@
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥇</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveBard</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; background: #e6ffed;">339ms</td>
+<<<<<<< HEAD
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
+=======
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
+>>>>>>> d423da7a42f69a36542c363fe191f92592495187
     </tr>
     <tr style="background: #f6f8fa;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥈</td>
