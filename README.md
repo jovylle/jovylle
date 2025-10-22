@@ -105,11 +105,13 @@
 
 <div align="center" style="margin: 20px 0;">
   <a href="https://fast.jovylle.com" target="_blank">
-    <img src="./game1.png" alt="Reaction Test Game - Click when it turns RED!" style="max-width: 300px; width: 50%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 16px;" />
+    <img src="./game1.png" alt="Reaction Test Game - Click when it turns RED!" style="max-width: 300px; width: 50%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;" />
   </a>
   <br>
-  <a href="https://fast.jovylle.com" target="_blank">
-    <img src="https://img.shields.io/badge/🎮%20Play%20Game-FF6B6B?style=for-the-badge&logo=gamepad2&logoColor=white&labelColor=FF6B6B&color=white" />
+  <a href="https://fast.jovylle.com" target="_blank" style="text-decoration: none;">
+    <div style="background: linear-gradient(135deg, #ff6b6b, #ff8e8e); color: white; padding: 16px 32px; border-radius: 25px; font-size: 1.2rem; font-weight: bold; text-align: center; display: inline-block; box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4); transition: all 0.3s ease; border: 3px solid #ff4757;">
+      🎮 PLAY GAME NOW! ⚡
+    </div>
   </a>
   <br>
   <div style="margin-top: 8px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
@@ -131,7 +133,7 @@
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥇</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveBard</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; background: #e6ffed;">339ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
     </tr>
     <tr style="background: #f6f8fa;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥈</td>
