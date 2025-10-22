@@ -93,7 +93,7 @@
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Chrome Extensions with Game Automation</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Extensions</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Created browser extensions for Melvor Idle (5.0★ rating) & Sunflower Land with 200+ active users. Built DOM injection, hotkey bindings, task automation, and local storage management for enhanced gameplay experiences.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Created browser extensions for Melvor Idle (5.0��� rating) & Sunflower Land with 200+ active users. Built DOM injection, hotkey bindings, task automation, and local storage management for enhanced gameplay experiences.</p>  </td>
 </tr>
 </table>
 
