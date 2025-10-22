@@ -184,6 +184,10 @@ function generateReactionLeaderboard(reactionData) {
 
 <div align="center" style="margin: 20px 0;">
   <a href="https://fast.jovylle.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/jovylle/playbase/master/reaction-game-teaser.png" alt="Reaction Test Game - Click when it turns RED!" style="max-width: 400px; width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 16px;" />
+  </a>
+  <br>
+  <a href="https://fast.jovylle.com" target="_blank">
     <img src="https://img.shields.io/badge/🎮%20Play%20Game-FF6B6B?style=for-the-badge&logo=gamepad2&logoColor=white&labelColor=FF6B6B&color=white" />
   </a>
   <br>
