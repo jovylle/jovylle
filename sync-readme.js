@@ -226,6 +226,7 @@ function generateReactionLeaderboard(reactionData) {
 <p align="center" style="margin-top: 24px; font-size: 0.9em; color: #666; background: #f8f9fa; padding: 12px; border-radius: 8px;">
   <em>🚀 Fastest reaction times from my GitHub-powered game platform</em>
   <br><small style="color: #999;">Built with GitHub as a database • Real-time updates</small>
+  <br><small style="color: #ff6b6b; font-weight: 500;">🔄 Leaderboard resets every season for fresh competition!</small>
 </p>
 
 `;

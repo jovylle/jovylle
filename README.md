@@ -107,7 +107,7 @@
   </a>
   <br>
   <div style="margin-top: 8px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
-    🏆 Best: 363ms • 📅 Updated: 10/21/2025
+    🏆 Best: 339ms • 📅 Updated: 10/22/2025
   </div>
 </div>
 
@@ -123,33 +123,33 @@
   <tbody>
     <tr style="background: #ffffff;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥇</td>
-      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">FlashPro5</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; background: #e6ffed;">363ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveBard</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; background: #e6ffed;">339ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
     </tr>
     <tr style="background: #f6f8fa;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥈</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">FlashPro5</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">369ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">363ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
     </tr>
     <tr style="background: #ffffff;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥉</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">FlashPro5</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">370ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">369ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
     </tr>
     <tr style="background: #f6f8fa;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">4️⃣</td>
-      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">SpeedRunner</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">378ms</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">FlashPro5</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">370ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
     </tr>
     <tr style="background: #ffffff;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">5️⃣</td>
-      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">SpeedDemon</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">380ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">1/15/2025</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">SpeedRunner</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">378ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
     </tr>
   </tbody>
 </table>
@@ -157,6 +157,7 @@
 <p align="center" style="margin-top: 24px; font-size: 0.9em; color: #666; background: #f8f9fa; padding: 12px; border-radius: 8px;">
   <em>🚀 Fastest reaction times from my GitHub-powered game platform</em>
   <br><small style="color: #999;">Built with GitHub as a database • Real-time updates</small>
+  <br><small style="color: #ff6b6b; font-weight: 500;">🔄 Leaderboard resets every season for fresh competition!</small>
 </p>
 
 ---
