@@ -169,6 +169,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-190-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-18-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-45-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-46-orange?style=for-the-badge" />
 </p>
 
