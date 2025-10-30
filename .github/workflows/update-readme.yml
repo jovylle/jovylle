@@ -1,4 +1,4 @@
-name: Update README with Latest Data
+name: Profile README: Sync Techs, Leaderboard and Stats
 
 on:
   schedule:
@@ -12,7 +12,7 @@ on:
       - '.github/workflows/update-readme.yml'
 
 jobs:
-  update-readme:
+  sync-profile-readme:
     runs-on: ubuntu-latest
     
     steps:
@@ -27,11 +27,11 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Update README
+    - name: Generate README sections (Techs/Leaderboard/Stats)
       run: |
         node sync-readme.js
 
-    - name: Check for changes
+    - name: Detect file changes
       id: verify-changed-files
       run: |
         if [ -n "$(git status --porcelain)" ]; then
@@ -40,16 +40,15 @@ jobs:
           echo "changed=false" >> $GITHUB_OUTPUT
         fi
 
-    - name: Commit and push changes
+    - name: Commit and push updated README
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
         git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.name "README Sync Action"
         git add README.md
         git commit -m "🤖 Auto-update README with latest project data and reaction game leaderboard
 
-        - Updated tech stack badges
-        - Refreshed professional highlights
+        - Updated Techs & Solutions section
         - Updated reaction game leaderboard
         - Updated project statistics
         
