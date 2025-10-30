@@ -117,7 +117,7 @@ function generateHighlightsShowcase(highlightsData) {
 
   let showcase = `---
 
-<div style="font-size: 1.25rem; font-weight: bold">🚀 Professional Highlights</div>
+<div style="font-size: 1.25rem; font-weight: bold">🚀 Techs and Solutions</div>
 
 <table align="center">
 `;
@@ -282,25 +282,20 @@ async function updateReadme() {
     readme = readme.replace(techStackRegex, `$1\n${techStackBadges}\n$3`);
 
     // Remove any existing showcase/stats/leaderboard sections to prevent duplicates
-    readme = readme.replace(/---\n\n<div[^>]*>🚀 (?:Professional Highlights|Featured Projects)<\/div>[\s\S]*?(?=\n---\n<div|---\n<p align="center">[\s\S]*holopin\.me|$)/g, '');
-    readme = readme.replace(/---\n\n<div[^>]*>⚡ Reaction Game Leaderboard<\/div>[\s\S]*?(?=\n---\n<div|---\n<p align="center">[\s\S]*holopin\.me|$)/g, '');
-    readme = readme.replace(/---\n\n<div[^>]*>📊 Stats<\/div>[\s\S]*?(?=\n---\n<div|---\n<p align="center">[\s\S]*holopin\.me|$)/g, '');
+    readme = readme.replace(/---\n+<div[^>]*>🚀 (?:Professional Highlights|Featured Projects|Techs and Solutions)<\/div>[\s\S]*?(?=\n---\n+<div|---\n+<p align="center">[\s\S]*holopin\.me|$)/g, '');
+    readme = readme.replace(/---\n+<div[^>]*>⚡ Reaction Game Leaderboard<\/div>[\s\S]*?(?=\n---\n+<div|---\n+<p align="center">[\s\S]*holopin\.me|$)/g, '');
+    readme = readme.replace(/---\n+<div[^>]*>📊 Stats<\/div>[\s\S]*?(?=\n---\n+<div|---\n+<p align="center">[\s\S]*holopin\.me|$)/g, '');
     
-    // Add sections before the final Holopin section
-    const holoPinRegex = /(\n---\n<p align="center">[\s\S]*holopin\.me[\s\S]*<\/p>\n)$/;
-    if (holoPinRegex.test(readme)) {
-      readme = readme.replace(holoPinRegex, `${highlightsShowcase}${reactionLeaderboard}${statsSection}$1`);
-    } else {
-      // If no Holopin section, add at the end
-      readme += highlightsShowcase + reactionLeaderboard + statsSection;
-    }
+    // Append fresh sections once at the end to avoid duplication
+    readme = readme.replace(/\s+$/,'');
+    readme += `\n\n${highlightsShowcase}${reactionLeaderboard}${statsSection}`;
 
     // Write updated README
     fs.writeFileSync(readmePath, readme);
     
     console.log('✅ README.md updated successfully!');
     console.log(`   - Updated tech stack with ${new Set(projectsData.projects.map(p => p.language).filter(Boolean)).size} languages`);
-    console.log(`   - Added ${highlightsData.highlights.length} professional highlights`);
+    console.log(`   - Added ${highlightsData.highlights.length} highlights section`);
     console.log(`   - Added reaction game leaderboard with ${reactionData.top.length} scores`);
     console.log(`   - Generated stats section`);
 
