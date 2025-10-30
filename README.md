@@ -61,7 +61,7 @@
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Chat Widget</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Chatbot / AI</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">A super-lightweight, open-source GPT-powered chatbot you can drop into any static site in seconds. Zero-config embed with just two `<script>` tags, serverless Netlify Function backend to proxy OpenAI calls, fully customizable UI, MIT-licensed, and supports per-user routes and analytics integrations.</p>    <p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built a lightweight GPT-powered chat widget that can be embedded into any static site using one script tag. Uses serverless Netlify Functions to proxy OpenAI calls. Fully customizable UI and MIT-licensed.</p>    <p>
       <a href="https://chat-widget.uft1.com" target="_blank">
         <img src="https://img.shields.io/badge/View%20Project-000?style=for-the-badge&logo=firefox&logoColor=white" />
       </a>
@@ -69,7 +69,7 @@
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Game Tools & Community Feedback</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Game Dev Tools</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built sfl.uft1.com - a real-time game assistant used daily by hundreds of Sunflower Land players. Created Vue 3/Vite tools with game API integration for strategy optimization. Collected community feedback for continuous UX improvement.</p>    <p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Developed sfl.uft1.com, a real-time Sunflower Land assistant used by hundreds daily. Implemented API integration, live calculations, UX improvements, and community feedback loops.</p>    <p>
       <a href="https://sfl.uft1.com" target="_blank">
         <img src="https://img.shields.io/badge/View%20Project-000?style=for-the-badge&logo=firefox&logoColor=white" />
       </a>
@@ -77,23 +77,23 @@
 </tr>
 <tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Full Stack Deployment with Laravel & Next.js</h3>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Full-Stack Deployment & Cloud</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">DevOps / Full Stack</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Deployed full-stack apps on Linux/Nginx, managed MySQL, and used serverless APIs with Python + GCP.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Deployed full-stack apps on Linux servers using Nginx, handled MySQL, and built serverless APIs using AWS Lambda, GCP and Python. Set up Storybook and CI pipelines for scalable deployments.</p>  </td>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Frontend UI/UX Craftsmanship</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Frontend</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Expert in converting Figma designs to pixel-perfect responsive interfaces using Vue 3, Nuxt, React, and TailwindCSS. Implemented GSAP/Sal.js animations and mobile-first architectures for optimal user experiences.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Converted Figma designs to pixel-perfect responsive interfaces. Built smooth animations, mobile-first flows, and high-performance UI components.</p>  </td>
 </tr>
 <tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Real-Time API Integrations</h3>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Real-Time API Integrations & Automation</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">API / Realtime</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Integrated OpenAI, OpenWeather, and game APIs. Automated data fetch with Puppeteer.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Integrated third-party APIs and automated data workflows (scraping, task bots, headless UI automation) using Puppeteer and serverless endpoints.</p>  </td>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Chrome Extensions with Game Automation</h3>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Chrome Extensions & Game Automation</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Extensions</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Created browser extensions for Melvor Idle (5.0★ rating) & Sunflower Land with 200+ active users. Built DOM injection, hotkey bindings, task automation, and local storage management for enhanced gameplay experiences.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built browser extensions with DOM injection, UI overlay systems, keybinds, automation scripts, and game helpers. 200+ active users and 5.0★ ratings.</p>  </td>
 </tr>
 </table>
 
