@@ -54,7 +54,7 @@
 
 ---
 
-<div style="font-size: 1.25rem; font-weight: bold">🚀 Professional Highlights</div>
+<div style="font-size: 1.25rem; font-weight: bold">🚀 Techs and Solutions </div>
 
 <table align="center">
 <tr>
