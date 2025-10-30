@@ -1,4 +1,4 @@
-name: Profile README: Sync Techs, Leaderboard and Stats
+name: "Profile README: Sync Techs, Leaderboard and Stats"
 
 on:
   schedule:
