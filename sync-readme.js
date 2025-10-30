@@ -277,18 +277,44 @@ async function updateReadme() {
     const reactionLeaderboard = generateReactionLeaderboard(reactionData);
     const statsSection = generateStatsSection(projectsData.projects);
 
-    // Replace tech stack section (between Tech Stack header and next ---)
-    const techStackRegex = /(🧰 Tech Stack<\/div>\n\n<p align="center">)([\s\S]*?)(\n<\/p>)/;
-    readme = readme.replace(techStackRegex, `$1\n${techStackBadges}\n$3`);
+    // Helper to upsert a section between explicit markers
+    function upsertSection(src, startMarker, endMarker, content) {
+      const startIdx = src.indexOf(startMarker);
+      const endIdx = src.indexOf(endMarker);
+      if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
+        return (
+          src.slice(0, startIdx + startMarker.length) +
+          "\n" + content.trim() + "\n" +
+          src.slice(endIdx)
+        );
+      }
+      // If markers not present, append at end with separators
+      const block = `\n\n${startMarker}\n${content.trim()}\n${endMarker}`;
+      return src.trimEnd() + block + "\n";
+    }
 
-    // Remove any existing showcase/stats/leaderboard sections to prevent duplicates
-    readme = readme.replace(/---\n+<div[^>]*>🚀 (?:Professional Highlights|Featured Projects|Techs and Solutions)<\/div>[\s\S]*?(?=\n---\n+<div|---\n+<p align="center">[\s\S]*holopin\.me|$)/g, '');
-    readme = readme.replace(/---\n+<div[^>]*>⚡ Reaction Game Leaderboard<\/div>[\s\S]*?(?=\n---\n+<div|---\n+<p align="center">[\s\S]*holopin\.me|$)/g, '');
-    readme = readme.replace(/---\n+<div[^>]*>📊 Stats<\/div>[\s\S]*?(?=\n---\n+<div|---\n+<p align="center">[\s\S]*holopin\.me|$)/g, '');
-    
-    // Append fresh sections once at the end to avoid duplication
-    readme = readme.replace(/\s+$/,'');
-    readme += `\n\n${highlightsShowcase}${reactionLeaderboard}${statsSection}`;
+    // 1) Tech Stack: keep existing logic (lighter change) but guard with try
+    try {
+      const techStackRegex = /(🧰 Tech Stack<\/div>\n\n<p align="center">)([\s\S]*?)(\n<\/p>)/;
+      if (techStackRegex.test(readme)) {
+        readme = readme.replace(techStackRegex, `$1\n${techStackBadges}\n$3`);
+      }
+    } catch (_) {}
+
+    // 2) Techs & Solutions (formerly Professional Highlights)
+    const HIGHLIGHTS_START = '<!-- START: TECHS_SOLUTIONS -->';
+    const HIGHLIGHTS_END = '<!-- END: TECHS_SOLUTIONS -->';
+    readme = upsertSection(readme, HIGHLIGHTS_START, HIGHLIGHTS_END, highlightsShowcase);
+
+    // 3) Reaction Leaderboard
+    const LEADER_START = '<!-- START: REACTION_LEADERBOARD -->';
+    const LEADER_END = '<!-- END: REACTION_LEADERBOARD -->';
+    readme = upsertSection(readme, LEADER_START, LEADER_END, reactionLeaderboard);
+
+    // 4) Stats
+    const STATS_START = '<!-- START: PROFILE_STATS -->';
+    const STATS_END = '<!-- END: PROFILE_STATS -->';
+    readme = upsertSection(readme, STATS_START, STATS_END, statsSection);
 
     // Write updated README
     fs.writeFileSync(readmePath, readme);
