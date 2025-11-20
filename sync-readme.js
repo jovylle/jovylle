@@ -30,16 +30,24 @@ async function fetchProjectsData() {
     https.get(API_URL, (res) => {
       let data = '';
       
+      // Check for error status codes
+      if (res.statusCode < 200 || res.statusCode >= 300) {
+        return reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
+      }
+      
       res.on('data', (chunk) => {
         data += chunk;
       });
       
       res.on('end', () => {
         try {
+          if (!data.trim()) {
+            return reject(new Error('Empty response from API'));
+          }
           const jsonData = JSON.parse(data);
           resolve(jsonData);
         } catch (error) {
-          reject(error);
+          reject(new Error(`Failed to parse JSON: ${error.message}. Response: ${data.substring(0, 100)}`));
         }
       });
     }).on('error', (error) => {
@@ -53,16 +61,24 @@ async function fetchHighlightsData() {
     https.get(HIGHLIGHTS_URL, (res) => {
       let data = '';
       
+      // Check for error status codes
+      if (res.statusCode < 200 || res.statusCode >= 300) {
+        return reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
+      }
+      
       res.on('data', (chunk) => {
         data += chunk;
       });
       
       res.on('end', () => {
         try {
+          if (!data.trim()) {
+            return reject(new Error('Empty response from API'));
+          }
           const jsonData = JSON.parse(data);
           resolve(jsonData);
         } catch (error) {
-          reject(error);
+          reject(new Error(`Failed to parse JSON: ${error.message}. Response: ${data.substring(0, 100)}`));
         }
       });
     }).on('error', (error) => {
@@ -76,16 +92,24 @@ async function fetchReactionData() {
     https.get(REACTION_API_URL, (res) => {
       let data = '';
       
+      // Check for error status codes
+      if (res.statusCode < 200 || res.statusCode >= 300) {
+        return reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
+      }
+      
       res.on('data', (chunk) => {
         data += chunk;
       });
       
       res.on('end', () => {
         try {
+          if (!data.trim()) {
+            return reject(new Error('Empty response from API'));
+          }
           const jsonData = JSON.parse(data);
           resolve(jsonData);
         } catch (error) {
-          reject(error);
+          reject(new Error(`Failed to parse JSON: ${error.message}. Response: ${data.substring(0, 100)}`));
         }
       });
     }).on('error', (error) => {
