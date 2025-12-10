@@ -124,7 +124,7 @@
   </a>
   <br>
   <div style="margin-top: 12px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
-    🏆 Best: 336ms • 📅 Updated: 11/10/2025
+    🏆 Best: 86ms • 📅 Updated: 12/10/2025
   </div>
 </div>
 
@@ -140,33 +140,33 @@
   <tbody>
     <tr style="background: #ffffff;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥇</td>
-      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">QuickReactor111</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; background: #e6ffed;">336ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/23/2025</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">HyperGamer99</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #28a745; background: #e6ffed;">86ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">12/10/2025</td>
     </tr>
     <tr style="background: #f6f8fa;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥈</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">QuickReactor111</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">336ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/23/2025</td>
+    </tr>
+    <tr style="background: #ffffff;">
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥉</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveBard</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">339ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/21/2025</td>
     </tr>
-    <tr style="background: #ffffff;">
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥉</td>
+    <tr style="background: #f6f8fa;">
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">4️⃣</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">FlashFighter321</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">342ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/30/2025</td>
     </tr>
-    <tr style="background: #f6f8fa;">
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">4️⃣</td>
+    <tr style="background: #ffffff;">
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">5️⃣</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveMonk222</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">344ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/22/2025</td>
-    </tr>
-    <tr style="background: #ffffff;">
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">5️⃣</td>
-      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">RapidPlayer42</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">345ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">11/10/2025</td>
     </tr>
   </tbody>
 </table>
