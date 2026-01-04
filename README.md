@@ -78,9 +78,9 @@
       </a>
     </p>  </td>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Game Tools & Community Feedback</h3>
-    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Game Dev Tools</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Developed sfl.uft1.com, a real-time Sunflower Land assistant used by hundreds daily. Implemented API integration, live calculations, UX improvements, and community feedback loops.</p>    <p>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Real-Time Web Tools & Community Systems</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Web Applications</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built web applications used by hundreds of users daily. Implemented API integration, real-time calculations, responsive UX, and community feedback systems. Focused on performance optimization and user-centered design.</p>    <p>
       <a href="https://sfl.uft1.com" target="_blank">
         <img src="https://img.shields.io/badge/View%20Project-000?style=for-the-badge&logo=firefox&logoColor=white" />
       </a>
@@ -102,9 +102,9 @@
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">API / Realtime</strong></p>
     <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Integrated third-party APIs and automated data workflows (scraping, task bots, headless UI automation) using Puppeteer and serverless endpoints.</p>  </td>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Chrome Extensions & Game Automation</h3>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Browser Extensions & DOM Automation</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Extensions</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built browser extensions with DOM injection, UI overlay systems, keybinds, automation scripts, and game helpers. 200+ active users and 5.0★ ratings.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built browser extensions with DOM injection, UI overlay systems, keybinds, and automation scripts. 200+ active users and 5.0★ ratings on Chrome Web Store.</p>  </td>
 </tr>
 </table>
 <!-- END: TECHS_SOLUTIONS -->
