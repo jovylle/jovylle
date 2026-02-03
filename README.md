@@ -124,7 +124,7 @@
   </a>
   <br>
   <div style="margin-top: 12px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
-    🏆 Best: 86ms • 📅 Updated: 2/2/2026
+    🏆 Best: 86ms • 📅 Updated: 2/3/2026
   </div>
 </div>
 
@@ -164,9 +164,9 @@
     </tr>
     <tr style="background: #ffffff;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">5️⃣</td>
-      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">QuickReactor111</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">336ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">10/23/2025</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveNinja23</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">334ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">2/3/2026</td>
     </tr>
   </tbody>
 </table>
