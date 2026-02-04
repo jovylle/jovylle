@@ -146,27 +146,27 @@
     </tr>
     <tr style="background: #f6f8fa;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥈</td>
-      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">HyperPlayer56</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #ffc107; ">274ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">2/2/2026</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveNinja23</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #28a745; ">177ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">2/3/2026</td>
     </tr>
     <tr style="background: #ffffff;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">🥉</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">HyperPlayer56</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">305ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #ffc107; ">274ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">2/2/2026</td>
     </tr>
     <tr style="background: #f6f8fa;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">4️⃣</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">HyperPlayer56</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">323ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">305ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">2/2/2026</td>
     </tr>
     <tr style="background: #ffffff;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">5️⃣</td>
-      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveNinja23</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">334ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">2/3/2026</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">HyperPlayer56</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">323ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">2/2/2026</td>
     </tr>
   </tbody>
 </table>
