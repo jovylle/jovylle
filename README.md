@@ -70,41 +70,30 @@
 <table align="center">
 <tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Chat Widget</h3>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">QuickGPT (chat.uft1.com)</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Chatbot / AI</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built a lightweight GPT-powered chat widget that can be embedded into any static site using one script tag. Uses serverless Netlify Functions to proxy OpenAI calls. Fully customizable UI and MIT-licensed.</p>    <p>
-      <a href="https://chat-widget.uft1.com" target="_blank">
-        <img src="https://img.shields.io/badge/View%20Project-000?style=for-the-badge&logo=firefox&logoColor=white" />
-      </a>
-    </p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Multi-model chat studio that keeps friends online when chatgpt.com free tiers dry out. Sidebar persistence, regenerate/copy helpers, and Netlify functions proxy GPT-4o, GPT-3.5, and Claude models with transparent quota handling.</p>  </td>
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Personal Projects Lab</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">AI tools & automation</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Employer-facing catalog of AI utilities, dashboards, and automations (QuickGPT, wanabusful, chat.uft1.com, etc.) that I own and operate through the JSON data layer.</p>  </td>
+</tr>
+<tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Real-Time Web Tools & Community Systems</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Web Applications</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built web applications used by hundreds of users daily. Implemented API integration, real-time calculations, responsive UX, and community feedback systems. Focused on performance optimization and user-centered design.</p>    <p>
-      <a href="https://sfl.uft1.com" target="_blank">
-        <img src="https://img.shields.io/badge/View%20Project-000?style=for-the-badge&logo=firefox&logoColor=white" />
-      </a>
-    </p>  </td>
-</tr>
-<tr>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Realtime admin portals, feedback collectors, and dashboards used daily by hundreds of users, including the agent-mode analytics story captured on the blog below.</p>  </td>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Full-Stack Deployment & Cloud</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">DevOps / Full Stack</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Deployed full-stack apps on Linux servers using Nginx, handled MySQL, and built serverless APIs using AWS Lambda, GCP and Python. Set up Storybook and CI pipelines for scalable deployments.</p>  </td>
-  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Frontend UI/UX Craftsmanship</h3>
-    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Frontend</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Converted Figma designs to pixel-perfect responsive interfaces. Built smooth animations, mobile-first flows, and high-performance UI components.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Fitbox (AU) member portals, automation jobs, and Netlify/GitHub pipelines that kept revenue-critical web properties stable.</p>  </td>
 </tr>
 <tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Real-Time API Integrations & Automation</h3>
-    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">API / Realtime</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Integrated third-party APIs and automated data workflows (scraping, task bots, headless UI automation) using Puppeteer and serverless endpoints.</p>  </td>
-  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Browser Extensions & DOM Automation</h3>
-    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Extensions</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Built browser extensions with DOM injection, UI overlay systems, keybinds, and automation scripts. 200+ active users and 5.0★ ratings on Chrome Web Store.</p>  </td>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Content Workflows & CMS Integrations</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">CMS</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Crafted headless CMS pipelines with live previews, Markdown/JSON content, and deployment hooks for docs and blogs.</p>  </td>
+  <td width="50%"></td>
 </tr>
 </table>
 <!-- END: TECHS_SOLUTIONS -->
