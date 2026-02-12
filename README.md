@@ -21,24 +21,7 @@
 <div style="font-size: 1.25rem; font-weight: bold">🧰 Tech Stack</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" />
-  <img src="https://img.shields.io/badge/Blade-000000?style=for-the-badge&logo=blade&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Just-000000?style=for-the-badge&logo=just&logoColor=white" />
-  <img src="https://img.shields.io/badge/Objective-C-000000?style=for-the-badge&logo=objective-c&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=powershell&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
-  <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=scss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Shell-89E051?style=for-the-badge&logo=shell&logoColor=white" />
-  <img src="https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue-35495e?style=for-the-badge&logo=vue&logoColor=white" />
+
 
 </p>
 
@@ -70,30 +53,33 @@
 <table align="center">
 <tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">QuickGPT (chat.uft1.com)</h3>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Chat Assistant Box</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Chatbot / AI</strong></p>
     <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Multi-model chat studio that keeps friends online when chatgpt.com free tiers dry out. Sidebar persistence, regenerate/copy helpers, and Netlify functions proxy GPT-4o, GPT-3.5, and Claude models with transparent quota handling.</p>  </td>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Personal Projects Lab</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">AI tools & automation</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Employer-facing catalog of AI utilities, dashboards, and automations (QuickGPT, wanabusful, chat.uft1.com, etc.) that I own and operate through the JSON data layer.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">My natural passion for coding is here—building AI utilities, dashboards, and automations where experimentation, refinement, and curiosity collide.</p>  </td>
 </tr>
 <tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Real-Time Web Tools & Community Systems</h3>
-    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Web Applications</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Realtime admin portals, feedback collectors, and dashboards used daily by hundreds of users, including the agent-mode analytics story captured on the blog below.</p>  </td>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Frontend & UX Context Systems</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Frontend / UX</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">I master the UX and frontend context management by orchestrating Vue, Nuxt, and React shells that draw directly from the personal-projects catalog so dashboards, landing pages, and automation UIs stay synchronised with their data stories.</p>  </td>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Full-Stack Deployment & Cloud</h3>
-    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">DevOps / Full Stack</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Fitbox (AU) member portals, automation jobs, and Netlify/GitHub pipelines that kept revenue-critical web properties stable.</p>  </td>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Server Skills & Full Stack Systems</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Full Stack</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Server skills plus full-stack context keep automations and JSON APIs humming; I combine data from the resume timeline and projects catalog to deploy Netlify/Serverless hooks while shepherding automation flows end-to-end.</p>  </td>
 </tr>
 <tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Content Workflows & CMS Integrations</h3>
-    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">CMS</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Crafted headless CMS pipelines with live previews, Markdown/JSON content, and deployment hooks for docs and blogs.</p>  </td>
-  <td width="50%"></td>
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Backend Expertise & Data Platforms</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Backend</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Backend expertise spans Laravel/PHP portals, MySQL and DynamoDB stores, and GraphQL/REST layers that stabilized member/admin portals and deployment workflows mentioned in the resume.</p>  </td>
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">AI Expertise & Knowledge Base</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">AI / Automation</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">AI expertise blends QuickGPT automation with the fresh RAG workflow I just learned, pairing AWS Bedrock and S3-hosted knowledge bases with OpenAI/Anthropic clouds so the same structured catalog stays usable across chat, blogs, and prompts.</p>  </td>
 </tr>
 </table>
 <!-- END: TECHS_SOLUTIONS -->
@@ -113,7 +99,7 @@
   </a>
   <br>
   <div style="margin-top: 12px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
-    🏆 Best: 86ms • 📅 Updated: 2/3/2026
+    🏆 Best: 86ms • 📅 Updated: 2/12/2026
   </div>
 </div>
 
@@ -171,8 +157,8 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-200-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-18-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-50-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-201-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-0-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-0-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
