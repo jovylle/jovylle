@@ -174,7 +174,7 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-200-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-319-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-18-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-50-orange?style=for-the-badge" />
 </p>
