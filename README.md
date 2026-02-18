@@ -21,24 +21,7 @@
 <div style="font-size: 1.25rem; font-weight: bold">🧰 Tech Stack</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" />
-  <img src="https://img.shields.io/badge/Blade-000000?style=for-the-badge&logo=blade&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Just-000000?style=for-the-badge&logo=just&logoColor=white" />
-  <img src="https://img.shields.io/badge/Objective-C-000000?style=for-the-badge&logo=objective-c&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=powershell&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
-  <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=scss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Shell-89E051?style=for-the-badge&logo=shell&logoColor=white" />
-  <img src="https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue-35495e?style=for-the-badge&logo=vue&logoColor=white" />
+
 
 </p>
 
@@ -175,7 +158,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-200-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-18-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-51-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-0-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-0-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
