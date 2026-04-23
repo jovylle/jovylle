@@ -74,9 +74,19 @@
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Chatbot / AI</strong></p>
     <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Multi-model chat studio that keeps friends online when chatgpt.com free tiers dry out. Sidebar persistence, regenerate/copy helpers, and Netlify functions proxy GPT-4o, GPT-3.5, and Claude models with transparent quota handling.</p>  </td>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">AI Expertise & Knowledge Base</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">AI / RAG</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">AI highlights in production: client Nuxt + OpenAI chatbots, n8n and serverless automations, and a RAG stack on AWS Bedrock with S3-backed knowledge so structured project and resume data stays queryable across chat, blogs, and prompts.</p>  </td>
+</tr>
+<tr>
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Career foundations (pre-AI product era)</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Legacy experience</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Where the full-stack muscle started: intern + tech support building a Laravel inventory tool at Metrowear/Onsavii, years of client sites and mobile apps at Proweaver, then a short React Native / Node contract at Pincoder—Laravel, CodeIgniter, React Native, SQL, WooCommerce, and GitHub/FTP deploys long before AI tooling took center stage.</p>  </td>
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Personal Projects Lab</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">AI tools & automation</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">My natural passion for coding is here—building AI utilities, dashboards, and automations where experimentation, refinement, and curiosity collide.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Sandbox for AI utilities, dashboards, and automations—experimentation and curiosity turned into shippable UIs wired to the same JSON catalogs that power the site and RAG flows.</p>  </td>
 </tr>
 <tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
@@ -87,16 +97,6 @@
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Server Skills & Full Stack Systems</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Full Stack</strong></p>
     <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Server skills plus full-stack context keep automations and JSON APIs humming; I combine data from the resume timeline and projects catalog to deploy Netlify/Serverless hooks while shepherding automation flows end-to-end.</p>  </td>
-</tr>
-<tr>
-  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Backend Expertise & Data Platforms</h3>
-    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Backend</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Backend expertise spans Laravel/PHP portals, MySQL and DynamoDB stores, and GraphQL/REST layers that stabilized member/admin portals and deployment workflows mentioned in the resume.</p>  </td>
-  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">AI Expertise & Knowledge Base</h3>
-    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">AI / Automation</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">AI expertise blends QuickGPT automation with the fresh RAG workflow I just learned, pairing AWS Bedrock and S3-hosted knowledge bases with OpenAI/Anthropic clouds so the same structured catalog stays usable across chat, blogs, and prompts.</p>  </td>
 </tr>
 </table>
 <!-- END: TECHS_SOLUTIONS -->
