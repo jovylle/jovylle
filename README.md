@@ -34,6 +34,7 @@
   <img src="https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=powershell&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=scss&logoColor=white" />
   <img src="https://img.shields.io/badge/Shell-89E051?style=for-the-badge&logo=shell&logoColor=white" />
   <img src="https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" />
@@ -174,8 +175,8 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-205-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-18-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-58-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-200-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-19-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-59-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
