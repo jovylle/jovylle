@@ -1,11 +1,39 @@
 #!/usr/bin/env node
 
-const https = require('https');
 const fs = require('fs');
 
-const API_URL = 'https://pocket.uft1.com/data/personal-projects.json';
-const HIGHLIGHTS_URL = 'https://pocket.uft1.com/data/highlights.json';
-const REACTION_API_URL = 'https://raw.githubusercontent.com/jovylle/playbase/master/reaction/top.json';
+const PROJECTS_API_URLS = [
+  process.env.PROJECTS_API_URL,
+  'https://pocket.uft1.com/data/personal-projects.json'
+].filter(Boolean);
+
+const HIGHLIGHTS_API_URLS = [
+  process.env.HIGHLIGHTS_API_URL,
+  'https://pocket.uft1.com/data/highlights.json',
+  'https://jovylle.com/data/highlights.json'
+].filter(Boolean);
+
+const REACTION_API_URLS = [
+  process.env.REACTION_API_URL,
+  'https://raw.githubusercontent.com/jovylle/playbase/master/reaction/top.json'
+].filter(Boolean);
+
+const REQUEST_TIMEOUT_MS = 20000;
+const MAX_ATTEMPTS_PER_URL = 3;
+const RETRYABLE_STATUS_CODES = new Set([408, 425, 429, 500, 502, 503, 504, 522, 524, 530]);
+const RETRYABLE_ERROR_CODES = new Set([
+  'ECONNRESET',
+  'ECONNREFUSED',
+  'EHOSTUNREACH',
+  'ENETUNREACH',
+  'ENOTFOUND',
+  'EAI_AGAIN',
+  'ETIMEDOUT'
+]);
+const REQUEST_HEADERS = {
+  'User-Agent': 'jovylle-readme-sync/1.0 (+https://github.com/jovylle/jovylle)',
+  'Accept': 'application/json,text/plain;q=0.9,*/*;q=0.8'
+};
 
 // Language to badge color mapping
 const languageColors = {
@@ -25,97 +53,98 @@ const languageColors = {
   'Shell': '89E051'
 };
 
-async function fetchProjectsData() {
-  return new Promise((resolve, reject) => {
-    https.get(API_URL, (res) => {
-      let data = '';
-      
-      // Check for error status codes
-      if (res.statusCode < 200 || res.statusCode >= 300) {
-        return reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
-      }
-      
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
-      
-      res.on('end', () => {
-        try {
-          if (!data.trim()) {
-            return reject(new Error('Empty response from API'));
-          }
-          const jsonData = JSON.parse(data);
-          resolve(jsonData);
-        } catch (error) {
-          reject(new Error(`Failed to parse JSON: ${error.message}. Response: ${data.substring(0, 100)}`));
-        }
-      });
-    }).on('error', (error) => {
-      reject(error);
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function isRetryableError(error) {
+  if (error?.name === 'AbortError') {
+    return true;
+  }
+
+  if (error?.status && RETRYABLE_STATUS_CODES.has(error.status)) {
+    return true;
+  }
+
+  const code = error?.code || error?.cause?.code;
+  return code ? RETRYABLE_ERROR_CODES.has(code) : false;
+}
+
+async function fetchJsonFromUrl(url) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
+  try {
+    const response = await fetch(url, {
+      headers: REQUEST_HEADERS,
+      signal: controller.signal
     });
-  });
+
+    const body = await response.text();
+
+    if (!response.ok) {
+      const error = new Error(`HTTP ${response.status}: ${response.statusText || '<none>'}`);
+      error.status = response.status;
+      error.responseSnippet = body.trim().replace(/\s+/g, ' ').slice(0, 160);
+      throw error;
+    }
+
+    if (!body.trim()) {
+      throw new Error('Empty response from API');
+    }
+
+    try {
+      return JSON.parse(body);
+    } catch (error) {
+      throw new Error(`Failed to parse JSON: ${error.message}. Response: ${body.substring(0, 100)}`);
+    }
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function fetchJsonWithFallback(label, urls) {
+  const failures = [];
+
+  for (const url of urls) {
+    for (let attempt = 1; attempt <= MAX_ATTEMPTS_PER_URL; attempt += 1) {
+      try {
+        return await fetchJsonFromUrl(url);
+      } catch (error) {
+        const retryable = isRetryableError(error);
+        const detail = error.responseSnippet ? ` (${error.responseSnippet})` : '';
+
+        failures.push({
+          transient: retryable,
+          message: `${url} [attempt ${attempt}/${MAX_ATTEMPTS_PER_URL}]: ${error.message}${detail}`
+        });
+
+        if (retryable && attempt < MAX_ATTEMPTS_PER_URL) {
+          console.warn(`⚠️ ${label} fetch failed from ${url} (${error.message}). Retrying...`);
+          await sleep(1500 * attempt);
+          continue;
+        }
+
+        break;
+      }
+    }
+  }
+
+  const finalError = new Error(`Failed to fetch ${label}: ${failures.map((failure) => failure.message).join(' | ')}`);
+  finalError.transient = failures.length > 0 && failures.every((failure) => failure.transient);
+  throw finalError;
+}
+
+async function fetchProjectsData() {
+  return fetchJsonWithFallback('projects data', PROJECTS_API_URLS);
 }
 
 async function fetchHighlightsData() {
-  return new Promise((resolve, reject) => {
-    https.get(HIGHLIGHTS_URL, (res) => {
-      let data = '';
-      
-      // Check for error status codes
-      if (res.statusCode < 200 || res.statusCode >= 300) {
-        return reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
-      }
-      
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
-      
-      res.on('end', () => {
-        try {
-          if (!data.trim()) {
-            return reject(new Error('Empty response from API'));
-          }
-          const jsonData = JSON.parse(data);
-          resolve(jsonData);
-        } catch (error) {
-          reject(new Error(`Failed to parse JSON: ${error.message}. Response: ${data.substring(0, 100)}`));
-        }
-      });
-    }).on('error', (error) => {
-      reject(error);
-    });
-  });
+  return fetchJsonWithFallback('highlights data', HIGHLIGHTS_API_URLS);
 }
 
 async function fetchReactionData() {
-  return new Promise((resolve, reject) => {
-    https.get(REACTION_API_URL, (res) => {
-      let data = '';
-      
-      // Check for error status codes
-      if (res.statusCode < 200 || res.statusCode >= 300) {
-        return reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
-      }
-      
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
-      
-      res.on('end', () => {
-        try {
-          if (!data.trim()) {
-            return reject(new Error('Empty response from API'));
-          }
-          const jsonData = JSON.parse(data);
-          resolve(jsonData);
-        } catch (error) {
-          reject(new Error(`Failed to parse JSON: ${error.message}. Response: ${data.substring(0, 100)}`));
-        }
-      });
-    }).on('error', (error) => {
-      reject(error);
-    });
-  });
+  return fetchJsonWithFallback('reaction data', REACTION_API_URLS);
 }
 
 function generateTechStackBadges(projects) {
@@ -350,6 +379,12 @@ async function updateReadme() {
     console.log(`   - Generated stats section`);
 
   } catch (error) {
+    if (process.env.GITHUB_ACTIONS === 'true' && error.transient) {
+      console.warn('⚠️ Skipping README update because the upstream data source is temporarily unavailable.');
+      console.warn(`   ${error.message}`);
+      return;
+    }
+
     console.error('❌ Error updating README:', error.message);
     process.exit(1);
   }
