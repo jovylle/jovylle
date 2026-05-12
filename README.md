@@ -164,7 +164,7 @@
 </table>
 
 <p align="center" style="margin-top: 20px; font-size: 0.85em; color: #666;">
-  <small style="color: #ff6b6b; font-weight: 500;">🔄 Resets every 3 months</small>
+  <small style="color: #2F81F7; font-weight: 500;">🏆 All-time leaderboard • Every saved run stays in history</small>
 </p>
 <!-- END: REACTION_LEADERBOARD -->
 
