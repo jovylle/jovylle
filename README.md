@@ -22,6 +22,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" />
+  <img src="https://img.shields.io/badge/AutoHotkey-000000?style=for-the-badge&logo=autohotkey&logoColor=white" />
   <img src="https://img.shields.io/badge/Blade-000000?style=for-the-badge&logo=blade&logoColor=white" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
@@ -29,7 +30,6 @@
   <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=java&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/Just-000000?style=for-the-badge&logo=just&logoColor=white" />
-  <img src="https://img.shields.io/badge/Objective-C-000000?style=for-the-badge&logo=objective-c&logoColor=white" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=powershell&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -175,7 +175,7 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-212-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-200-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-19-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-65-orange?style=for-the-badge" />
 </p>
