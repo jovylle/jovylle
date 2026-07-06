@@ -164,7 +164,7 @@
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">4️⃣</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">BraveNinja23</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #28a745; ">177ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">2/3/2026</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">2/4/2026</td>
     </tr>
     <tr style="background: #ffffff;">
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">5️⃣</td>
@@ -248,58 +248,48 @@
 
 <!-- START: TOP_PROJECTS -->
 ---
-<div style="font-size: 1.25rem; font-weight: bold">🏆 Top Projects</div>
+<div style="font-size: 1.25rem; font-weight: bold">🛠️ Some Personal Projects or Tools</div>
 
-<table align="center" style="border-collapse: collapse; width: 100%; max-width: 650px;">
-<tr style="background: #ffffff;">
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center; font-weight: bold; font-size: 1.1em;">1</td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de;">
-    <a href="https://d1g.uk/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">SFL Digging Assistant</a>
-    <br><span style="font-size: 0.82em; color: #666;">JS, Vue, Nuxt, Serverless</span>
-  </td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center;">
-    <span style="background: #e6ffed; color: #28a745; padding: 2px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">600</span>
-  </td>
-</tr>
-<tr style="background: #f6f8fa;">
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center; font-weight: bold; font-size: 1.1em;">2</td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de;">
-    <a href="https://fast.jovylle.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Playbase</a>
-    <br><span style="font-size: 0.82em; color: #666;">JavaScript, Serverless, GitHub Actions</span>
-  </td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center;">
-    <span style="background: #e6ffed; color: #28a745; padding: 2px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">450</span>
-  </td>
-</tr>
-<tr style="background: #ffffff;">
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center; font-weight: bold; font-size: 1.1em;">3</td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de;">
-    <a href="https://loopgallery.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">LoopGallery</a>
-    <br><span style="font-size: 0.82em; color: #666;">Nuxt 3, Cloudflare Workers, D1, R2, Firebase</span>
-  </td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center;">
-    <span style="background: #e6ffed; color: #28a745; padding: 2px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">430</span>
-  </td>
-</tr>
-<tr style="background: #f6f8fa;">
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center; font-weight: bold; font-size: 1.1em;">4</td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de;">
-    <a href="https://shipdrip.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Shipdrip</a>
-    <br><span style="font-size: 0.82em; color: #666;">Nuxt 3, Cloudflare Workers, D1, R2, GitHub OAuth</span>
-  </td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center;">
-    <span style="background: #e6ffed; color: #28a745; padding: 2px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">410</span>
-  </td>
-</tr>
-<tr style="background: #ffffff;">
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center; font-weight: bold; font-size: 1.1em;">5</td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de;">
-    <a href="https://admin-hub.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Quick Website Builder</a>
-    <br><span style="font-size: 0.82em; color: #666;">Nuxt 3, Cloudflare Workers, D1, SaaS, Website Builder</span>
-  </td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center;">
-    <span style="background: #e6ffed; color: #28a745; padding: 2px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">400</span>
-  </td>
-</tr>
-</table>
+<ul style="list-style: none; padding: 0;">
+<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
+  <a href="https://d1g.uk/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">SFL Digging Assistant</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JS, Vue, Nuxt, Serverless</span>
+  <br><span style="font-size: 0.85em; color: #444;">Daily 300 Visitors. d1g.uk is a fast, free, and visual tool for helping Sunflower Land players explore the Desert effici</span>
+</li>
+<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
+  <a href="https://fast.jovylle.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Playbase</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Serverless, GitHub Actions</span>
+  <br><span style="font-size: 0.85em; color: #444;">Lightweight reaction-test game with all-time leaderboard JSON. The portfolio widget proxies scores via /api/leaderboard </span>
+</li>
+<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
+  <a href="https://loopgallery.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">LoopGallery</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, R2, Firebase</span>
+  <br><span style="font-size: 0.85em; color: #444;">Social gallery for loops and creative shares — Nuxt 3 on Cloudflare Workers with D1, R2, and Firebase Auth.</span>
+</li>
+<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
+  <a href="https://shipdrip.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Shipdrip</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, R2, GitHub OAuth</span>
+  <br><span style="font-size: 0.85em; color: #444;">Show-and-tell for vibe-coded projects — public feed, demo embeds, vibe reactions, and GitHub import. Nuxt 3 on Cloudflar</span>
+</li>
+<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
+  <a href="https://admin-hub.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Quick Website Builder</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, SaaS, Website Builder</span>
+  <br><span style="font-size: 0.85em; color: #444;">Quick websites for real people — choose a preset portfolio or business design, fill your profile once in My data, and la</span>
+</li>
+<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
+  <a href="https://chat-widget.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">chatbot-widget</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— AI, OpenAI, Anthropic</span>
+  <br><span style="font-size: 0.85em; color: #444;">Instantly embed a GPT-powered chatbot into any site.</span>
+</li>
+<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
+  <a href="https://projectmate.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">ProjectMate</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Netlify, Serverless</span>
+  <br><span style="font-size: 0.85em; color: #444;">Embeddable feedback and release-notes overlay for any site — one script tag, no iframe rebuild.</span>
+</li>
+<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
+  <a href="https://lab.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">AI Lab — LLM Full Stack Portfolio</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, FastAPI, Postgres, pgvector, Ollama, Python, TypeScript, Cloudflare Tunnel</span>
+  <br><span style="font-size: 0.85em; color: #444;">Three live demos for LLM full-stack interviews: RAG PDF chat with pgvector citations (rag.uft1.com), a tool-calling agen</span>
+</li>
+</ul>
 <!-- END: TOP_PROJECTS -->

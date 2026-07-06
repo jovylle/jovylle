@@ -416,33 +416,27 @@ function generateTopProjects(projects) {
   const top = [...projects]
     .filter(p => !p.private && p.status === 'published')
     .sort((a, b) => (b.priority_score || 0) - (a.priority_score || 0))
-    .slice(0, 5);
+    .slice(0, 8);
 
   let html = `---
-<div style="font-size: 1.25rem; font-weight: bold">🏆 Top Projects</div>
+<div style="font-size: 1.25rem; font-weight: bold">🛠️ Some Personal Projects or Tools</div>
 
-<table align="center" style="border-collapse: collapse; width: 100%; max-width: 650px;">`;
+<ul style="list-style: none; padding: 0;">`;
 
-  top.forEach((project, index) => {
+  top.forEach(project => {
     const liveUrl = project.links?.find(l => l.label === 'Live' || l.label === 'Live Site')?.url || project.repo;
-    const score = project.priority_score || 0;
     const tech = project.tech?.length ? project.tech.join(', ') : '';
-    const rowBg = index % 2 === 0 ? '#ffffff' : '#f6f8fa';
+    const desc = project.description ? project.description.substring(0, 120) : '';
     html += `
-<tr style="background: ${rowBg};">
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center; font-weight: bold; font-size: 1.1em;">${index + 1}</td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de;">
-    <a href="${liveUrl}" style="color: #2F81F7; text-decoration: none; font-weight: 600;">${project.title}</a>
-    ${tech ? `<br><span style="font-size: 0.82em; color: #666;">${tech}</span>` : ''}
-  </td>
-  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center;">
-    <span style="background: #e6ffed; color: #28a745; padding: 2px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">${score}</span>
-  </td>
-</tr>`;
+<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
+  <a href="${liveUrl}" style="color: #2F81F7; text-decoration: none; font-weight: 600;">${project.title}</a>
+  ${tech ? `<span style="font-size: 0.82em; color: #666; margin-left: 6px;">— ${tech}</span>` : ''}
+  ${desc ? `<br><span style="font-size: 0.85em; color: #444;">${desc}</span>` : ''}
+</li>`;
   });
 
   html += `
-</table>
+</ul>
 
 `;
   return html;
