@@ -4,11 +4,13 @@ const fs = require('fs');
 
 const PROJECTS_API_URLS = [
   process.env.PROJECTS_API_URL,
+  'https://content.jovylle.com/data/personal-projects.json',
   'https://pocket.uft1.com/data/personal-projects.json'
 ].filter(Boolean);
 
 const HIGHLIGHTS_API_URLS = [
   process.env.HIGHLIGHTS_API_URL,
+  'https://content.jovylle.com/data/highlights.json',
   'https://pocket.uft1.com/data/highlights.json',
   'https://jovylle.com/data/highlights.json'
 ].filter(Boolean);
@@ -16,6 +18,21 @@ const HIGHLIGHTS_API_URLS = [
 const REACTION_API_URLS = [
   process.env.REACTION_API_URL,
   'https://raw.githubusercontent.com/jovylle/playbase/master/reaction/top.json'
+].filter(Boolean);
+
+const NOTIFICATIONS_API_URLS = [
+  process.env.NOTIFICATIONS_API_URL,
+  'https://content.jovylle.com/data/notifications.json'
+].filter(Boolean);
+
+const BLOGS_API_URLS = [
+  process.env.BLOGS_API_URL,
+  'https://content.jovylle.com/data/blogs/index.json'
+].filter(Boolean);
+
+const RESUME_API_URLS = [
+  process.env.RESUME_API_URL,
+  'https://content.jovylle.com/data/resume.json'
 ].filter(Boolean);
 
 const REQUEST_TIMEOUT_MS = 20000;
@@ -145,6 +162,18 @@ async function fetchHighlightsData() {
 
 async function fetchReactionData() {
   return fetchJsonWithFallback('reaction data', REACTION_API_URLS);
+}
+
+async function fetchNotificationsData() {
+  return fetchJsonWithFallback('notifications data', NOTIFICATIONS_API_URLS);
+}
+
+async function fetchBlogsData() {
+  return fetchJsonWithFallback('blogs data', BLOGS_API_URLS);
+}
+
+async function fetchResumeData() {
+  return fetchJsonWithFallback('resume data', RESUME_API_URLS);
 }
 
 function generateTechStackBadges(projects) {
@@ -292,7 +321,11 @@ function generateReactionLeaderboard(reactionData) {
 function generateStatsSection(projects) {
   const totalProjects = projects.length;
   const languages = new Set(projects.map(p => p.language).filter(Boolean)).size;
-  const liveProjects = projects.filter(p => p.live || p.netlify_live).length;
+  const liveProjects = projects.filter(p =>
+    p.live ||
+    p.netlify_live ||
+    (p.links && p.links.some(l => l.label === 'Live' || l.label === 'Live Site'))
+  ).length;
 
   return `---
 
@@ -307,6 +340,114 @@ function generateStatsSection(projects) {
 `;
 }
 
+function generateLatestNotifications(notificationsData) {
+  const latest = notificationsData.notifications
+    .filter(n => n.status === 'published' && !n.private && (n.type === 'success' || n.type === 'announcement'))
+    .slice(0, 3);
+
+  let html = `---
+<div style="font-size: 1.25rem; font-weight: bold">📢 What's New</div>
+
+<ul style="list-style: none; padding: 0;">`;
+
+  latest.forEach(n => {
+    const date = new Date(n.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    const link = n.link && n.link.url ? ` — <a href="${n.link.url}" style="color: #2F81F7;">${n.link.label || 'Read more'}</a>` : '';
+    html += `
+<li style="margin-bottom: 12px; padding: 10px 14px; background: #f6f8fa; border-radius: 8px; border-left: 4px solid ${n.type === 'announcement' ? '#ff6b6b' : '#28a745'};">
+  <div style="font-weight: 600; margin-bottom: 2px;">${n.title}${link}</div>
+  <div style="font-size: 0.82em; color: #666;">${date}</div>
+</li>`;
+  });
+
+  html += `
+</ul>
+
+`;
+  return html;
+}
+
+function generateRecentBlogPosts(blogsData) {
+  const sorted = [...blogsData]
+    .filter(b => b.status === 'published' && !b.private)
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 4);
+
+  let html = `---
+<div style="font-size: 1.25rem; font-weight: bold">📝 Recent Blog Posts</div>
+
+<ul style="list-style: none; padding: 0;">`;
+
+  sorted.forEach(post => {
+    const date = new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    const slug = post.slug;
+    html += `
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/${slug}" style="color: #2F81F7; text-decoration: none; font-weight: 500;">${post.title}</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">${date}</span>
+</li>`;
+  });
+
+  html += `
+</ul>
+
+`;
+  return html;
+}
+
+function generateResumeSection(resumeData) {
+  const currentRole = resumeData.timeline[0];
+  const roleLine = currentRole
+    ? `**${currentRole.role}** at ${currentRole.company} · ${currentRole.range}`
+    : '';
+
+  return `---
+<div style="font-size: 1.25rem; font-weight: bold">👔 Resume</div>
+
+<p style="font-size: 1em; line-height: 1.6;">
+  ${roleLine ? roleLine + '<br>' : ''}
+  <a href="https://jovylle.com/resume" target="_blank" style="color: #2F81F7; font-weight: 500;">View full resume →</a>
+</p>
+
+`;
+}
+
+function generateTopProjects(projects) {
+  const top = [...projects]
+    .filter(p => !p.private && p.status === 'published')
+    .sort((a, b) => (b.priority_score || 0) - (a.priority_score || 0))
+    .slice(0, 5);
+
+  let html = `---
+<div style="font-size: 1.25rem; font-weight: bold">🏆 Top Projects</div>
+
+<table align="center" style="border-collapse: collapse; width: 100%; max-width: 650px;">`;
+
+  top.forEach((project, index) => {
+    const liveUrl = project.links?.find(l => l.label === 'Live' || l.label === 'Live Site')?.url || project.repo;
+    const score = project.priority_score || 0;
+    const tech = project.tech?.length ? project.tech.join(', ') : '';
+    const rowBg = index % 2 === 0 ? '#ffffff' : '#f6f8fa';
+    html += `
+<tr style="background: ${rowBg};">
+  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center; font-weight: bold; font-size: 1.1em;">${index + 1}</td>
+  <td style="padding: 10px 12px; border: 1px solid #d0d7de;">
+    <a href="${liveUrl}" style="color: #2F81F7; text-decoration: none; font-weight: 600;">${project.title}</a>
+    ${tech ? `<br><span style="font-size: 0.82em; color: #666;">${tech}</span>` : ''}
+  </td>
+  <td style="padding: 10px 12px; border: 1px solid #d0d7de; text-align: center;">
+    <span style="background: #e6ffed; color: #28a745; padding: 2px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">${score}</span>
+  </td>
+</tr>`;
+  });
+
+  html += `
+</table>
+
+`;
+  return html;
+}
+
 async function updateReadme() {
   try {
     console.log('🔄 Fetching projects data...');
@@ -316,9 +457,24 @@ async function updateReadme() {
     const highlightsData = await fetchHighlightsData();
     
     console.log('🔄 Fetching reaction game data...');
-    const reactionData = await fetchReactionData();
+    let reactionData = null;
+    try {
+      reactionData = await fetchReactionData();
+    } catch (e) {
+      console.warn('⚠️ Reaction game data unavailable (transient), skipping leaderboard');
+    }
+
+    console.log('🔄 Fetching notifications data...');
+    const notificationsData = await fetchNotificationsData();
+
+    console.log('🔄 Fetching blogs data...');
+    const blogsData = await fetchBlogsData();
+
+    console.log('🔄 Fetching resume data...');
+    const resumeData = await fetchResumeData();
     
-    console.log(`📊 Found ${projectsData.projects.length} projects, ${highlightsData.highlights.length} highlights, and ${reactionData.top.length} reaction scores`);
+    const reactionScores = reactionData ? reactionData.top.length : 0;
+    console.log(`📊 Found ${projectsData.projects.length} projects, ${highlightsData.highlights.length} highlights, ${reactionScores} reaction scores, ${notificationsData.notifications.length} notifications, ${blogsData.length} blog posts`);
 
     // Read current README
     const readmePath = './README.md';
@@ -327,8 +483,12 @@ async function updateReadme() {
     // Generate new sections
     const techStackBadges = generateTechStackBadges(projectsData.projects);
     const highlightsShowcase = generateHighlightsShowcase(highlightsData);
-    const reactionLeaderboard = generateReactionLeaderboard(reactionData);
+    const reactionLeaderboard = reactionData ? generateReactionLeaderboard(reactionData) : '';
     const statsSection = generateStatsSection(projectsData.projects);
+    const notificationsSection = generateLatestNotifications(notificationsData);
+    const blogPostsSection = generateRecentBlogPosts(blogsData);
+    const resumeSection = generateResumeSection(resumeData);
+    const topProjectsSection = generateTopProjects(projectsData.projects);
 
     // Helper to upsert a section between explicit markers
     function upsertSection(src, startMarker, endMarker, content) {
@@ -359,15 +519,37 @@ async function updateReadme() {
     const HIGHLIGHTS_END = '<!-- END: TECHS_SOLUTIONS -->';
     readme = upsertSection(readme, HIGHLIGHTS_START, HIGHLIGHTS_END, highlightsShowcase);
 
-    // 3) Reaction Leaderboard
-    const LEADER_START = '<!-- START: REACTION_LEADERBOARD -->';
-    const LEADER_END = '<!-- END: REACTION_LEADERBOARD -->';
-    readme = upsertSection(readme, LEADER_START, LEADER_END, reactionLeaderboard);
+    // 3) Reaction Leaderboard (optional)
+    if (reactionData) {
+      const LEADER_START = '<!-- START: REACTION_LEADERBOARD -->';
+      const LEADER_END = '<!-- END: REACTION_LEADERBOARD -->';
+      readme = upsertSection(readme, LEADER_START, LEADER_END, reactionLeaderboard);
+    }
 
     // 4) Stats
     const STATS_START = '<!-- START: PROFILE_STATS -->';
     const STATS_END = '<!-- END: PROFILE_STATS -->';
     readme = upsertSection(readme, STATS_START, STATS_END, statsSection);
+
+    // 5) What's New (latest notifications)
+    const NOTIF_START = '<!-- START: WHATS_NEW -->';
+    const NOTIF_END = '<!-- END: WHATS_NEW -->';
+    readme = upsertSection(readme, NOTIF_START, NOTIF_END, notificationsSection);
+
+    // 6) Recent Blog Posts
+    const BLOGS_START = '<!-- START: RECENT_BLOGS -->';
+    const BLOGS_END = '<!-- END: RECENT_BLOGS -->';
+    readme = upsertSection(readme, BLOGS_START, BLOGS_END, blogPostsSection);
+
+    // 7) Resume
+    const RESUME_START = '<!-- START: RESUME -->';
+    const RESUME_END = '<!-- END: RESUME -->';
+    readme = upsertSection(readme, RESUME_START, RESUME_END, resumeSection);
+
+    // 8) Top Projects
+    const TOP_START = '<!-- START: TOP_PROJECTS -->';
+    const TOP_END = '<!-- END: TOP_PROJECTS -->';
+    readme = upsertSection(readme, TOP_START, TOP_END, topProjectsSection);
 
     // Write updated README
     fs.writeFileSync(readmePath, readme);
@@ -377,6 +559,10 @@ async function updateReadme() {
     console.log(`   - Added ${highlightsData.highlights.length} highlights section`);
     console.log(`   - Added reaction game leaderboard with ${reactionData.top.length} scores`);
     console.log(`   - Generated stats section`);
+    console.log(`   - Added latest notifications section`);
+    console.log(`   - Added ${blogsData.length} blog posts`);
+    console.log(`   - Added resume section`);
+    console.log(`   - Added top projects section`);
 
   } catch (error) {
     if (process.env.GITHUB_ACTIONS === 'true' && error.transient) {
