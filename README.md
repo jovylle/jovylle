@@ -21,36 +21,22 @@
 <div style="font-size: 1.25rem; font-weight: bold">🧰 Tech Stack</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%2C%20OpenAI%2C%20Anthropic-000000?style=for-the-badge&logo=ai, openai, anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Chrome%20Extension%2C%20JS-000000?style=for-the-badge&logo=chrome extension, js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare%20Workers%2C%20R2%2C%20KV%2C%20DeepSeek-000000?style=for-the-badge&logo=cloudflare workers, r2, kv, deepseek&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI%2C%20SQLite%2C%20OpenAI%2C%20MCP%2C%20Docker-000000?style=for-the-badge&logo=fastapi, sqlite, openai, mcp, docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-000000?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Github%20Actions%2C%20Automation-000000?style=for-the-badge&logo=github actions, automation&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML%2C%20CSS%2C%20JS%2C%20Cloudflare%20Pages%2C%20Cloudflare%20Tunnel%2C%20AI-000000?style=for-the-badge&logo=html, css, js, cloudflare pages, cloudflare tunnel, ai&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML%2C%20CSS%2C%20JavaScript%2C%20Cloudflare%20Pages-000000?style=for-the-badge&logo=html, css, javascript, cloudflare pages&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML%2C%20JS%2C%20CSS-000000?style=for-the-badge&logo=html, js, css&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML%2C%20JavaScript%2C%20Cloudflare%20Pages%2C%20D1-000000?style=for-the-badge&logo=html, javascript, cloudflare pages, d1&logoColor=white" />
-  <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge&logo=js&logoColor=white" />
-  <img src="https://img.shields.io/badge/JS%2C%20Vue%2C%20Nuxt%2C%20Serverless-000000?style=for-the-badge&logo=js, vue, nuxt, serverless&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript%2C%20Netlify%2C%20Serverless-000000?style=for-the-badge&logo=javascript, netlify, serverless&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript%2C%20Serverless%2C%20GitHub%20Actions-000000?style=for-the-badge&logo=javascript, serverless, github actions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Lambda%2C%20Supabase%2C%20AWS-000000?style=for-the-badge&logo=lambda, supabase, aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nuxt%203%2C%20Cloudflare%20Workers%2C%20D1%2C%20R2%2C%20Firebase-000000?style=for-the-badge&logo=nuxt 3, cloudflare workers, d1, r2, firebase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nuxt%203%2C%20Cloudflare%20Workers%2C%20D1%2C%20R2%2C%20GitHub%20OAuth-000000?style=for-the-badge&logo=nuxt 3, cloudflare workers, d1, r2, github oauth&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nuxt%203%2C%20Cloudflare%20Workers%2C%20D1%2C%20SaaS%2C%20Website%20Builder-000000?style=for-the-badge&logo=nuxt 3, cloudflare workers, d1, saas, website builder&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nuxt%203%2C%20FastAPI%2C%20Postgres%2C%20pgvector%2C%20Ollama%2C%20Python%2C%20TypeScript%2C%20Cloudflare%20Tunnel-000000?style=for-the-badge&logo=nuxt 3, fastapi, postgres, pgvector, ollama, python, typescript, cloudflare tunnel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nuxt%203%2C%20FastAPI%2C%20Python%2C%20TypeScript-000000?style=for-the-badge&logo=nuxt 3, fastapi, python, typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nuxt%2C%20AI%2C%20OpenAI%2C%20Anthropic-000000?style=for-the-badge&logo=nuxt, ai, openai, anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Playstore%2C%20Android%2C%20JS%2C%20Node%2C%20AI%2C%20OpenAI%2C%20Anthropic-000000?style=for-the-badge&logo=playstore, android, js, node, ai, openai, anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=powershell&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python%2C%20Django%20Girls%2C%20GitHub%20Pages-000000?style=for-the-badge&logo=python, django girls, github pages&logoColor=white" />
-  <img src="https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" />
+  <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript%2C%20Rust%2C%20React%2C%20Tauri%2C%20FFmpeg%2C%20WhisperX-000000?style=for-the-badge&logo=typescript, rust, react, tauri, ffmpeg, whisperx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue%2C%20Vite%2C%20Netlify%2C%20JWT%2C%20Blobs-000000?style=for-the-badge&logo=vue, vite, netlify, jwt, blobs&logoColor=white" />
-  <img src="https://img.shields.io/badge/bash%2C%20python3%2C%20ffmpeg%2C%20rsync%2C%20youtube-data-api-v3%2C%20google-auth%2C%20google-auth-oauthlib%2C%20google-api-python-client%2C%20oauth-2.0-000000?style=for-the-badge&logo=bash, python3, ffmpeg, rsync, youtube-data-api-v3, google-auth, google-auth-oauthlib, google-api-python-client, oauth-2.0&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
+  <img src="https://img.shields.io/badge/Serverless-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/R2-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
 
 </p>
 

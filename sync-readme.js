@@ -177,18 +177,25 @@ async function fetchResumeData() {
 }
 
 function generateTechStackBadges(projects) {
-  // Extract unique languages from projects
-  const languages = [...new Set(
-    projects
-      .map(p => p.language)
-      .filter(lang => lang && lang !== null)
-  )].sort();
+  const techCount = {};
+  projects.forEach(p => {
+    if (p.tech && Array.isArray(p.tech)) {
+      p.tech.forEach(t => {
+        const key = t.trim();
+        if (key) techCount[key] = (techCount[key] || 0) + 1;
+      });
+    }
+  });
 
-  // Generate badges for each language
-  const badges = languages.map(lang => {
-    const color = languageColors[lang] || '000000';
-    const logoName = lang.toLowerCase().replace(/\+/g, 'plus');
-    return `  <img src="https://img.shields.io/badge/${encodeURIComponent(lang)}-${color}?style=for-the-badge&logo=${logoName}&logoColor=white" />`;
+  const sorted = Object.entries(techCount)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 16);
+
+  const badges = sorted.map(([tech]) => {
+    const color = languageColors[tech] || '000000';
+    const logoName = languageColors[tech] ? tech.toLowerCase().replace(/\+/g, 'plus') : '';
+    const logo = logoName ? `&logo=${logoName}&logoColor=white` : '';
+    return `  <img src="https://img.shields.io/badge/${encodeURIComponent(tech)}-${color}?style=for-the-badge${logo}" />`;
   });
 
   return badges.join('\n');
