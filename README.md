@@ -23,19 +23,19 @@
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
   <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue-35495e?style=for-the-badge&logo=vue&logoColor=white" />
+  <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Serverless-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/R2-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
 
 </p>
@@ -172,8 +172,8 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-48-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-30-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-59-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-31-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-30-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
@@ -183,18 +183,6 @@
 <div style="font-size: 1.25rem; font-weight: bold">📢 What's New</div>
 
 <ul style="list-style: none; padding: 0;">
-<li style="margin-bottom: 12px; padding: 10px 14px; background: #f6f8fa; border-radius: 8px; border-left: 4px solid #28a745;">
-  <div style="font-weight: 600; margin-bottom: 2px;">ChatGPT Search v2 is live — <a href="https://chromewebstore.google.com/detail/chatgpt-search/apeckljcdhfjjanmjbceanoneldpdndm" style="color: #2F81F7;">Install on Chrome Web Store</a></div>
-  <div style="font-size: 0.82em; color: #666;">Jun 29, 2026</div>
-</li>
-<li style="margin-bottom: 12px; padding: 10px 14px; background: #f6f8fa; border-radius: 8px; border-left: 4px solid #ff6b6b;">
-  <div style="font-weight: 600; margin-bottom: 2px;">Theme Lab — Tier X is live (34 skins) — <a href="https://themes.uft1.com" style="color: #2F81F7;">Open Theme Lab</a></div>
-  <div style="font-size: 0.82em; color: #666;">Jun 29, 2026</div>
-</li>
-<li style="margin-bottom: 12px; padding: 10px 14px; background: #f6f8fa; border-radius: 8px; border-left: 4px solid #ff6b6b;">
-  <div style="font-weight: 600; margin-bottom: 2px;">AI Lab — LLM Full Stack Portfolio is live — <a href="https://lab.uft1.com" style="color: #2F81F7;">Open AI Lab</a></div>
-  <div style="font-size: 0.82em; color: #666;">Jun 29, 2026</div>
-</li>
 </ul>
 <!-- END: WHATS_NEW -->
 
@@ -203,22 +191,6 @@
 <div style="font-size: 1.25rem; font-weight: bold">📝 Recent Blog Posts</div>
 
 <ul style="list-style: none; padding: 0;">
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/chatgpt-search-v2-update" style="color: #2F81F7; text-decoration: none; font-weight: 500;">ChatGPT Search v2: auto-send, quick search, and a c shortcut</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jun 29, 2026</span>
-</li>
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/llm-full-stack-portfolio-ai-lab" style="color: #2F81F7; text-decoration: none; font-weight: 500;">LLM Full Stack Portfolio — three live demos on a Mac Mini</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jun 29, 2026</span>
-</li>
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/theme-lab-tier-x-out-of-this-world-skins" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Theme Lab — adding a Tier X of 'out of this world' skins</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jun 29, 2026</span>
-</li>
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/forge-online-github-dashboard" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Forge Online: a GitHub project dashboard without a database</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">May 31, 2026</span>
-</li>
 </ul>
 <!-- END: RECENT_BLOGS -->
 

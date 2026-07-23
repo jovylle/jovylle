@@ -495,10 +495,22 @@ async function updateReadme() {
     }
 
     console.log('🔄 Fetching notifications data...');
-    const notificationsData = await fetchNotificationsData();
+    let notificationsData = null;
+    try {
+      notificationsData = await fetchNotificationsData();
+    } catch (e) {
+      console.warn('⚠️ Notifications data unavailable (transient), skipping notifications section');
+      notificationsData = { notifications: [] };
+    }
 
     console.log('🔄 Fetching blogs data...');
-    const blogsData = await fetchBlogsData();
+    let blogsData = null;
+    try {
+      blogsData = await fetchBlogsData();
+    } catch (e) {
+      console.warn('⚠️ Blogs data unavailable (transient), skipping blog posts section');
+      blogsData = [];
+    }
 
     console.log('🔄 Fetching resume data...');
     const resumeData = await fetchResumeData();
