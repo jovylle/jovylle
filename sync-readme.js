@@ -15,10 +15,17 @@ const HIGHLIGHTS_API_URLS = [
   'https://jovylle.com/data/highlights.json'
 ].filter(Boolean);
 
-const REACTION_API_URLS = [
-  process.env.REACTION_API_URL,
-  'https://raw.githubusercontent.com/jovylle/playbase/master/reaction/top.json'
-].filter(Boolean);
+const GAMES = [
+  {
+    key: 'reaction',
+    label: 'Reaction Game',
+    playUrl: 'https://fast.jovylle.com',
+    apiUrls: [
+      process.env.REACTION_API_URL,
+      'https://play.jovylle.com/api/scores?game=reaction&sort=top&limit=5'
+    ].filter(Boolean)
+  }
+];
 
 const NOTIFICATIONS_API_URLS = [
   process.env.NOTIFICATIONS_API_URL,
@@ -160,8 +167,27 @@ async function fetchHighlightsData() {
   return fetchJsonWithFallback('highlights data', HIGHLIGHTS_API_URLS);
 }
 
-async function fetchReactionData() {
-  return fetchJsonWithFallback('reaction data', REACTION_API_URLS);
+function adaptScoresResponse(data) {
+  if (!data || !Array.isArray(data.scores)) {
+    return data;
+  }
+
+  const top = data.scores.map((row) => ({
+    ...row,
+    playerName: row.player_name,
+    timestamp: row.created_at
+  }));
+
+  const lastUpdated = top.reduce((latest, row) => {
+    return row.timestamp && (!latest || row.timestamp > latest) ? row.timestamp : latest;
+  }, null);
+
+  return { top, last_updated: lastUpdated };
+}
+
+async function fetchGameData(game) {
+  const data = await fetchJsonWithFallback(`${game.key} game data`, game.apiUrls);
+  return adaptScoresResponse(data);
 }
 
 async function fetchNotificationsData() {
@@ -260,19 +286,19 @@ function generateHighlightsShowcase(highlightsData) {
   return showcase;
 }
 
-function generateReactionLeaderboard(reactionData) {
-  const topScores = reactionData.top.slice(0, 5); // Show top 5
-  const lastUpdated = new Date(reactionData.last_updated).toLocaleDateString();
-  const bestScore = Math.min(...reactionData.top.map(s => s.ms));
+function generateGameLeaderboard(game, gameData) {
+  const topScores = gameData.top.slice(0, 5); // Show top 5
+  const lastUpdated = new Date(gameData.last_updated).toLocaleDateString();
+  const bestScore = Math.min(...gameData.top.map(s => s.ms));
 
   let leaderboard = `---
 
 <div align="center" style="margin-bottom: 20px;">
-  <div style="font-size: 1.5rem; font-weight: bold; color: #2F81F7;">⚡ Reaction Game Leaderboard</div>
+  <div style="font-size: 1.5rem; font-weight: bold; color: #2F81F7;">⚡ ${game.label} Leaderboard</div>
 </div>
 
 <div align="center" style="margin: 20px 0;">
-  <a href="https://fast.jovylle.com" target="_blank" style="text-decoration: none;">
+  <a href="${game.playUrl}" target="_blank" style="text-decoration: none;">
     <div style="background: linear-gradient(135deg, #ff6b6b, #ff8e8e); color: white; padding: 16px 32px; border-radius: 25px; font-size: 1.2rem; font-weight: bold; text-align: center; display: inline-block; box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4); transition: all 0.3s ease; border: 3px solid #ff4757;">
       🎮 PLAY GAME NOW! ⚡
     </div>
@@ -457,12 +483,15 @@ async function updateReadme() {
     console.log('🔄 Fetching highlights data...');
     const highlightsData = await fetchHighlightsData();
     
-    console.log('🔄 Fetching reaction game data...');
-    let reactionData = null;
-    try {
-      reactionData = await fetchReactionData();
-    } catch (e) {
-      console.warn('⚠️ Reaction game data unavailable (transient), skipping leaderboard');
+    console.log('🔄 Fetching game leaderboard data...');
+    const gamesWithData = [];
+    for (const game of GAMES) {
+      try {
+        const gameData = await fetchGameData(game);
+        gamesWithData.push({ game, gameData });
+      } catch (e) {
+        console.warn(`⚠️ ${game.label} data unavailable (transient), skipping leaderboard`);
+      }
     }
 
     console.log('🔄 Fetching notifications data...');
@@ -474,8 +503,8 @@ async function updateReadme() {
     console.log('🔄 Fetching resume data...');
     const resumeData = await fetchResumeData();
     
-    const reactionScores = reactionData ? reactionData.top.length : 0;
-    console.log(`📊 Found ${projectsData.projects.length} projects, ${highlightsData.highlights.length} highlights, ${reactionScores} reaction scores, ${notificationsData.notifications.length} notifications, ${blogsData.length} blog posts`);
+    const totalGameScores = gamesWithData.reduce((sum, { gameData }) => sum + gameData.top.length, 0);
+    console.log(`📊 Found ${projectsData.projects.length} projects, ${highlightsData.highlights.length} highlights, ${totalGameScores} game scores across ${gamesWithData.length} game(s), ${notificationsData.notifications.length} notifications, ${blogsData.length} blog posts`);
 
     // Read current README
     const readmePath = './README.md';
@@ -484,7 +513,9 @@ async function updateReadme() {
     // Generate new sections
     const techStackBadges = generateTechStackBadges(projectsData.projects);
     const highlightsShowcase = generateHighlightsShowcase(highlightsData);
-    const reactionLeaderboard = reactionData ? generateReactionLeaderboard(reactionData) : '';
+    const reactionLeaderboard = gamesWithData
+      .map(({ game, gameData }) => generateGameLeaderboard(game, gameData))
+      .join('\n');
     const statsSection = generateStatsSection(projectsData.projects);
     const notificationsSection = generateLatestNotifications(notificationsData);
     const blogPostsSection = generateRecentBlogPosts(blogsData);
@@ -521,7 +552,7 @@ async function updateReadme() {
     readme = upsertSection(readme, HIGHLIGHTS_START, HIGHLIGHTS_END, highlightsShowcase);
 
     // 3) Reaction Leaderboard (optional)
-    if (reactionData) {
+    if (gamesWithData.length > 0) {
       const LEADER_START = '<!-- START: REACTION_LEADERBOARD -->';
       const LEADER_END = '<!-- END: REACTION_LEADERBOARD -->';
       readme = upsertSection(readme, LEADER_START, LEADER_END, reactionLeaderboard);
@@ -558,7 +589,13 @@ async function updateReadme() {
     console.log('✅ README.md updated successfully!');
     console.log(`   - Updated tech stack with ${new Set(projectsData.projects.map(p => p.language).filter(Boolean)).size} languages`);
     console.log(`   - Added ${highlightsData.highlights.length} highlights section`);
-    console.log(`   - Added reaction game leaderboard with ${reactionData.top.length} scores`);
+    if (gamesWithData.length > 0) {
+      gamesWithData.forEach(({ game, gameData }) => {
+        console.log(`   - Added ${game.label} leaderboard with ${gameData.top.length} scores`);
+      });
+    } else {
+      console.log(`   - Skipped game leaderboard (no data available)`);
+    }
     console.log(`   - Generated stats section`);
     console.log(`   - Added latest notifications section`);
     console.log(`   - Added ${blogsData.length} blog posts`);
