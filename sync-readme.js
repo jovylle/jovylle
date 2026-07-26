@@ -195,7 +195,8 @@ async function fetchNotificationsData() {
 }
 
 async function fetchBlogsData() {
-  return fetchJsonWithFallback('blogs data', BLOGS_API_URLS);
+  const data = await fetchJsonWithFallback('blogs data', BLOGS_API_URLS);
+  return Array.isArray(data) ? data : (data.posts || []);
 }
 
 async function fetchResumeData() {
