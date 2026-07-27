@@ -403,7 +403,7 @@ function generateLatestNotifications(notificationsData) {
 
 function generateRecentBlogPosts(blogsData) {
   const sorted = [...blogsData]
-    .filter(b => b.status === 'published' && !b.private)
+    .filter(b => (b.status === undefined || b.status === 'published') && !b.private)
     .sort((a, b) => new Date(b.date) - new Date(a.date))
     .slice(0, 4);
 
@@ -497,24 +497,36 @@ async function updateReadme() {
 
     console.log('🔄 Fetching notifications data...');
     let notificationsData = null;
+    let notificationsAvailable = true;
     try {
       notificationsData = await fetchNotificationsData();
     } catch (e) {
-      console.warn('⚠️ Notifications data unavailable (transient), skipping notifications section');
+      console.warn('⚠️ Notifications data unavailable (transient), leaving notifications section untouched');
       notificationsData = { notifications: [] };
+      notificationsAvailable = false;
     }
 
     console.log('🔄 Fetching blogs data...');
     let blogsData = null;
+    let blogsAvailable = true;
     try {
       blogsData = await fetchBlogsData();
     } catch (e) {
-      console.warn('⚠️ Blogs data unavailable (transient), skipping blog posts section');
+      console.warn('⚠️ Blogs data unavailable (transient), leaving blog posts section untouched');
       blogsData = [];
+      blogsAvailable = false;
     }
 
     console.log('🔄 Fetching resume data...');
-    const resumeData = await fetchResumeData();
+    let resumeData = null;
+    let resumeAvailable = true;
+    try {
+      resumeData = await fetchResumeData();
+    } catch (e) {
+      console.warn('⚠️ Resume data unavailable (transient), leaving resume section untouched');
+      resumeData = { timeline: [] };
+      resumeAvailable = false;
+    }
     
     const totalGameScores = gamesWithData.reduce((sum, { gameData }) => sum + gameData.top.length, 0);
     console.log(`📊 Found ${projectsData.projects.length} projects, ${highlightsData.highlights.length} highlights, ${totalGameScores} game scores across ${gamesWithData.length} game(s), ${notificationsData.notifications.length} notifications, ${blogsData.length} blog posts`);
@@ -551,13 +563,10 @@ async function updateReadme() {
       return src.trimEnd() + block + "\n";
     }
 
-    // 1) Tech Stack: keep existing logic (lighter change) but guard with try
-    try {
-      const techStackRegex = /(🧰 Tech Stack<\/div>\n\n<p align="center">)([\s\S]*?)(\n<\/p>)/;
-      if (techStackRegex.test(readme)) {
-        readme = readme.replace(techStackRegex, `$1\n${techStackBadges}\n$3`);
-      }
-    } catch (_) {}
+    // 1) Tech Stack
+    const TECH_STACK_START = '<!-- START: TECH_STACK -->';
+    const TECH_STACK_END = '<!-- END: TECH_STACK -->';
+    readme = upsertSection(readme, TECH_STACK_START, TECH_STACK_END, `<p align="center">\n${techStackBadges}\n</p>`);
 
     // 2) Techs & Solutions (formerly Professional Highlights)
     const HIGHLIGHTS_START = '<!-- START: TECHS_SOLUTIONS -->';
@@ -565,10 +574,17 @@ async function updateReadme() {
     readme = upsertSection(readme, HIGHLIGHTS_START, HIGHLIGHTS_END, highlightsShowcase);
 
     // 3) Reaction Leaderboard (optional)
+    const LEADER_START = '<!-- START: REACTION_LEADERBOARD -->';
+    const LEADER_END = '<!-- END: REACTION_LEADERBOARD -->';
     if (gamesWithData.length > 0) {
-      const LEADER_START = '<!-- START: REACTION_LEADERBOARD -->';
-      const LEADER_END = '<!-- END: REACTION_LEADERBOARD -->';
       readme = upsertSection(readme, LEADER_START, LEADER_END, reactionLeaderboard);
+    } else {
+      readme = upsertSection(
+        readme,
+        LEADER_START,
+        LEADER_END,
+        `---\n\n<p align="center" style="color: #666; font-size: 0.9em;">⚠️ Leaderboard data temporarily unavailable — check back soon.</p>`
+      );
     }
 
     // 4) Stats
@@ -577,19 +593,25 @@ async function updateReadme() {
     readme = upsertSection(readme, STATS_START, STATS_END, statsSection);
 
     // 5) What's New (latest notifications)
-    const NOTIF_START = '<!-- START: WHATS_NEW -->';
-    const NOTIF_END = '<!-- END: WHATS_NEW -->';
-    readme = upsertSection(readme, NOTIF_START, NOTIF_END, notificationsSection);
+    if (notificationsAvailable) {
+      const NOTIF_START = '<!-- START: WHATS_NEW -->';
+      const NOTIF_END = '<!-- END: WHATS_NEW -->';
+      readme = upsertSection(readme, NOTIF_START, NOTIF_END, notificationsSection);
+    }
 
     // 6) Recent Blog Posts
-    const BLOGS_START = '<!-- START: RECENT_BLOGS -->';
-    const BLOGS_END = '<!-- END: RECENT_BLOGS -->';
-    readme = upsertSection(readme, BLOGS_START, BLOGS_END, blogPostsSection);
+    if (blogsAvailable) {
+      const BLOGS_START = '<!-- START: RECENT_BLOGS -->';
+      const BLOGS_END = '<!-- END: RECENT_BLOGS -->';
+      readme = upsertSection(readme, BLOGS_START, BLOGS_END, blogPostsSection);
+    }
 
     // 7) Resume
-    const RESUME_START = '<!-- START: RESUME -->';
-    const RESUME_END = '<!-- END: RESUME -->';
-    readme = upsertSection(readme, RESUME_START, RESUME_END, resumeSection);
+    if (resumeAvailable) {
+      const RESUME_START = '<!-- START: RESUME -->';
+      const RESUME_END = '<!-- END: RESUME -->';
+      readme = upsertSection(readme, RESUME_START, RESUME_END, resumeSection);
+    }
 
     // 8) Top Projects
     const TOP_START = '<!-- START: TOP_PROJECTS -->';

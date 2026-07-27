@@ -11,8 +11,6 @@
 
 <div style="font-size: 1.25rem; font-weight: bold">About Me</div>
 
-> `Ctrl+Z is my best friend.`
-
 - I like breaking things apart  
 - I poke around until something useful comes out
 
@@ -20,6 +18,7 @@
 
 <div style="font-size: 1.25rem; font-weight: bold">🧰 Tech Stack</div>
 
+<!-- START: TECH_STACK -->
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
@@ -37,9 +36,8 @@
   <img src="https://img.shields.io/badge/R2-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
-
 </p>
-
+<!-- END: TECH_STACK -->
 
 ---
 <p align="center">
@@ -49,16 +47,6 @@
 </p>
 
 
-
----
-
-<div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Projects-190-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-18-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-46-orange?style=for-the-badge" />
-</p>
 
 <!-- START: TECHS_SOLUTIONS -->
 ---
@@ -114,7 +102,7 @@
   </a>
   <br>
   <div style="margin-top: 12px; font-size: 0.85em; color: #666; background: #f8f9fa; padding: 6px 12px; border-radius: 20px; display: inline-block;">
-    🏆 Best: 313ms • 📅 Updated: 7/26/2026
+    🏆 Best: 313ms • 📅 Updated: 7/27/2026
   </div>
 </div>
 
@@ -145,6 +133,12 @@
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">SonicReactor96</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">414ms</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">7/26/2026</td>
+    </tr>
+    <tr style="background: #f6f8fa;">
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">4️⃣</td>
+      <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">TurboAce91</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">648ms</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">7/27/2026</td>
     </tr>
   </tbody>
 </table>
@@ -179,6 +173,22 @@
 <div style="font-size: 1.25rem; font-weight: bold">📝 Recent Blog Posts</div>
 
 <ul style="list-style: none; padding: 0;">
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/project-factory-500-autonomous-ai-apps" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Project Factory: 500 Apps Built by Underpaid AI</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jul 17, 2026</span>
+</li>
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/why-i-used-cursor-ide-for-a-year" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Why I Used Cursor IDE for a Year</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jul 7, 2026</span>
+</li>
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/chatgpt-search-v2-update" style="color: #2F81F7; text-decoration: none; font-weight: 500;">ChatGPT Search v2: auto-send, quick search, and a c shortcut</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jun 29, 2026</span>
+</li>
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/llm-full-stack-portfolio-ai-lab" style="color: #2F81F7; text-decoration: none; font-weight: 500;">LLM Full Stack Portfolio — three live demos on a Mac Mini</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jun 29, 2026</span>
+</li>
 </ul>
 <!-- END: RECENT_BLOGS -->
 
