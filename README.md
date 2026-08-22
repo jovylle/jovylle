@@ -162,7 +162,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-49-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-28-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-30-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-31-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
 
@@ -180,6 +180,10 @@
 
 <ul style="list-style: none; padding: 0;">
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/hermes-opencode-acp" style="color: #2F81F7; text-decoration: none; font-weight: 500;">hermes-opencode-acp: OpenCode's model catalog, free tier included, inside Hermes</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Aug 23, 2026</span>
+</li>
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/project-factory-500-autonomous-ai-apps" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Project Factory: 500 Apps Built by Underpaid AI</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jul 17, 2026</span>
 </li>
@@ -189,10 +193,6 @@
 </li>
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/chatgpt-search-v2-update" style="color: #2F81F7; text-decoration: none; font-weight: 500;">ChatGPT Search v2: auto-send, quick search, and a c shortcut</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jun 29, 2026</span>
-</li>
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/llm-full-stack-portfolio-ai-lab" style="color: #2F81F7; text-decoration: none; font-weight: 500;">LLM Full Stack Portfolio — three live demos on a Mac Mini</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jun 29, 2026</span>
 </li>
 </ul>
@@ -217,6 +217,11 @@
   <a href="https://d1g.uk/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">SFL Digging Assistant</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JS, Vue, Nuxt, Serverless</span>
   <br><span style="font-size: 0.85em; color: #444;">Daily 300 Visitors. d1g.uk is a fast, free, and visual tool for helping Sunflower Land players explore the Desert effici</span>
+</li>
+<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hermes-opencode-acp.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">hermes-opencode-acp</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Python, ACP, Hermes, OpenCode</span>
+  <br><span style="font-size: 0.85em; color: #444;">Plugin that lets Hermes use OpenCode's model catalog (200+ models, free tier included) as a provider via the Agent Clien</span>
 </li>
 <li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
   <a href="https://fast.jovylle.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Playbase</a>
@@ -247,11 +252,6 @@
   <a href="https://projectmate.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">ProjectMate</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Netlify, Serverless</span>
   <br><span style="font-size: 0.85em; color: #444;">Embeddable feedback and release-notes overlay for any site — one script tag, no iframe rebuild.</span>
-</li>
-<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
-  <a href="https://lab.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">AI Lab — LLM Full Stack Portfolio</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, FastAPI, Postgres, pgvector, Ollama, Python, TypeScript, Cloudflare Tunnel</span>
-  <br><span style="font-size: 0.85em; color: #444;">Three live demos for LLM full-stack interviews: RAG PDF chat with pgvector citations (rag.uft1.com), a tool-calling agen</span>
 </li>
 </ul>
 <!-- END: TOP_PROJECTS -->
