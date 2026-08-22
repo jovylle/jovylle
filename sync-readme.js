@@ -448,10 +448,9 @@ function generateResumeSection(resumeData) {
 
 function thumbnailUrl(thumb) {
   if (!thumb) return null;
-  // Relative paths resolve against the data origin that actually serves images.
-  if (thumb.startsWith('/')) return 'https://pocket.uft1.com' + thumb;
-  // Absolute URLs in the data still point at content.jovylle.com (404s); images live on pocket.uft1.com.
-  if (thumb.startsWith('https://content.jovylle.com/')) return thumb.replace('https://content.jovylle.com', 'https://pocket.uft1.com');
+  // Relative paths resolve against the content origin that actually serves the images.
+  if (thumb.startsWith('/')) return 'https://content.jovylle.com' + thumb;
+  // Absolute URLs in the data already point at content.jovylle.com.
   return thumb;
 }
 

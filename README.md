@@ -215,7 +215,7 @@
 <table>
 
 <tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://d1g.uk/"><img src="https://pocket.uft1.com/images/post/sfl-crab.png" alt="SFL Digging Assistant" width="140" style="border-radius: 8px;" /></a></td>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://d1g.uk/"><img src="https://content.jovylle.com/images/post/sfl-crab.png" alt="SFL Digging Assistant" width="140" style="border-radius: 8px;" /></a></td>
   <td valign="middle" style="padding: 10px;">
     <a href="https://d1g.uk/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">SFL Digging Assistant</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JS, Vue, Nuxt, Serverless</span>
@@ -223,7 +223,7 @@
   </td>
 </tr>
 <tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://hermes-opencode-acp.uft1.com"><img src="https://pocket.uft1.com/images/hermes-opencode-acp.png" alt="hermes-opencode-acp" width="140" style="border-radius: 8px;" /></a></td>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://hermes-opencode-acp.uft1.com"><img src="https://content.jovylle.com/images/hermes-opencode-acp.png" alt="hermes-opencode-acp" width="140" style="border-radius: 8px;" /></a></td>
   <td valign="middle" style="padding: 10px;">
     <a href="https://hermes-opencode-acp.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">hermes-opencode-acp</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Python, ACP, Hermes, OpenCode</span>
@@ -231,7 +231,7 @@
   </td>
 </tr>
 <tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://fast.jovylle.com"><img src="https://pocket.uft1.com/images/playbase.png" alt="Playbase" width="140" style="border-radius: 8px;" /></a></td>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://fast.jovylle.com"><img src="https://content.jovylle.com/images/playbase.png" alt="Playbase" width="140" style="border-radius: 8px;" /></a></td>
   <td valign="middle" style="padding: 10px;">
     <a href="https://fast.jovylle.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Playbase</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Serverless, GitHub Actions</span>
@@ -239,7 +239,7 @@
   </td>
 </tr>
 <tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://loopgallery.a-u.us"><img src="https://pocket.uft1.com/images/loop-gallery-space.png" alt="LoopGallery" width="140" style="border-radius: 8px;" /></a></td>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://loopgallery.a-u.us"><img src="https://content.jovylle.com/images/loop-gallery-space.png" alt="LoopGallery" width="140" style="border-radius: 8px;" /></a></td>
   <td valign="middle" style="padding: 10px;">
     <a href="https://loopgallery.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">LoopGallery</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, R2, Firebase</span>
@@ -263,7 +263,7 @@
   </td>
 </tr>
 <tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://chat-widget.uft1.com/"><img src="https://pocket.uft1.com/images/chat-widget.png" alt="chatbot-widget" width="140" style="border-radius: 8px;" /></a></td>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://chat-widget.uft1.com/"><img src="https://content.jovylle.com/images/chat-widget.png" alt="chatbot-widget" width="140" style="border-radius: 8px;" /></a></td>
   <td valign="middle" style="padding: 10px;">
     <a href="https://chat-widget.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">chatbot-widget</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— AI, OpenAI, Anthropic</span>
@@ -271,7 +271,7 @@
   </td>
 </tr>
 <tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://projectmate.uft1.com/"><img src="https://pocket.uft1.com/images/projectmate-embedded-app.png" alt="ProjectMate" width="140" style="border-radius: 8px;" /></a></td>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://projectmate.uft1.com/"><img src="https://content.jovylle.com/images/projectmate-embedded-app.png" alt="ProjectMate" width="140" style="border-radius: 8px;" /></a></td>
   <td valign="middle" style="padding: 10px;">
     <a href="https://projectmate.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">ProjectMate</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Netlify, Serverless</span>
