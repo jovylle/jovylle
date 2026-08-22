@@ -21,21 +21,21 @@
 <!-- START: TECH_STACK -->
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
   <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue-35495e?style=for-the-badge&logo=vue&logoColor=white" />
   <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Serverless-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/R2-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge" />
 </p>
 <!-- END: TECH_STACK -->
 
@@ -144,7 +144,7 @@
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 1.2em;">5️⃣</td>
       <td style="padding: 12px; text-align: left; border: 1px solid #d0d7de; font-weight: 500;">QuickNinja80</td>
       <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-weight: bold; color: #dc3545; ">600ms</td>
-      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">7/27/2026</td>
+      <td style="padding: 12px; text-align: center; border: 1px solid #d0d7de; font-size: 0.9em; color: #666;">7/28/2026</td>
     </tr>
   </tbody>
 </table>
@@ -160,8 +160,8 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-49-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-28-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-66-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-31-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-31-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
@@ -212,46 +212,71 @@
 ---
 <div style="font-size: 1.25rem; font-weight: bold">🛠️ Some Personal Projects or Tools</div>
 
-<ul style="list-style: none; padding: 0;">
-<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
-  <a href="https://d1g.uk/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">SFL Digging Assistant</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JS, Vue, Nuxt, Serverless</span>
-  <br><span style="font-size: 0.85em; color: #444;">Daily 300 Visitors. d1g.uk is a fast, free, and visual tool for helping Sunflower Land players explore the Desert effici</span>
-</li>
-<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hermes-opencode-acp.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">hermes-opencode-acp</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Python, ACP, Hermes, OpenCode</span>
-  <br><span style="font-size: 0.85em; color: #444;">Plugin that lets Hermes use OpenCode's model catalog (200+ models, free tier included) as a provider via the Agent Clien</span>
-</li>
-<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
-  <a href="https://fast.jovylle.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Playbase</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Serverless, GitHub Actions</span>
-  <br><span style="font-size: 0.85em; color: #444;">Lightweight reaction-test game with all-time leaderboard JSON. The portfolio widget proxies scores via /api/leaderboard </span>
-</li>
-<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
-  <a href="https://loopgallery.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">LoopGallery</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, R2, Firebase</span>
-  <br><span style="font-size: 0.85em; color: #444;">Social gallery for loops and creative shares — Nuxt 3 on Cloudflare Workers with D1, R2, and Firebase Auth.</span>
-</li>
-<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
-  <a href="https://shipdrip.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Shipdrip</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, R2, GitHub OAuth</span>
-  <br><span style="font-size: 0.85em; color: #444;">Show-and-tell for vibe-coded projects — public feed, demo embeds, vibe reactions, and GitHub import. Nuxt 3 on Cloudflar</span>
-</li>
-<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
-  <a href="https://admin-hub.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Quick Website Builder</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, SaaS, Website Builder</span>
-  <br><span style="font-size: 0.85em; color: #444;">Quick websites for real people — choose a preset portfolio or business design, fill your profile once in My data, and la</span>
-</li>
-<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
-  <a href="https://chat-widget.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">chatbot-widget</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— AI, OpenAI, Anthropic</span>
-  <br><span style="font-size: 0.85em; color: #444;">Instantly embed a GPT-powered chatbot into any site.</span>
-</li>
-<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
-  <a href="https://projectmate.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">ProjectMate</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Netlify, Serverless</span>
-  <br><span style="font-size: 0.85em; color: #444;">Embeddable feedback and release-notes overlay for any site — one script tag, no iframe rebuild.</span>
-</li>
-</ul>
+<table>
+
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://d1g.uk/"><img src="https://pocket.uft1.com/images/post/sfl-crab.png" alt="SFL Digging Assistant" width="140" style="border-radius: 8px;" /></a></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://d1g.uk/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">SFL Digging Assistant</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JS, Vue, Nuxt, Serverless</span>
+    <br><span style="font-size: 0.85em; color: #444;">Daily 300 Visitors. d1g.uk is a fast, free, and visual tool for helping Sunflower Land players explore the Desert effici</span>
+  </td>
+</tr>
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://hermes-opencode-acp.uft1.com"><img src="https://pocket.uft1.com/images/hermes-opencode-acp.png" alt="hermes-opencode-acp" width="140" style="border-radius: 8px;" /></a></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://hermes-opencode-acp.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">hermes-opencode-acp</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Python, ACP, Hermes, OpenCode</span>
+    <br><span style="font-size: 0.85em; color: #444;">Plugin that lets Hermes use OpenCode's model catalog (200+ models, free tier included) as a provider via the Agent Clien</span>
+  </td>
+</tr>
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://fast.jovylle.com"><img src="https://pocket.uft1.com/images/playbase.png" alt="Playbase" width="140" style="border-radius: 8px;" /></a></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://fast.jovylle.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Playbase</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Serverless, GitHub Actions</span>
+    <br><span style="font-size: 0.85em; color: #444;">Lightweight reaction-test game with all-time leaderboard JSON. The portfolio widget proxies scores via /api/leaderboard </span>
+  </td>
+</tr>
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://loopgallery.a-u.us"><img src="https://pocket.uft1.com/images/loop-gallery-space.png" alt="LoopGallery" width="140" style="border-radius: 8px;" /></a></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://loopgallery.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">LoopGallery</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, R2, Firebase</span>
+    <br><span style="font-size: 0.85em; color: #444;">Social gallery for loops and creative shares — Nuxt 3 on Cloudflare Workers with D1, R2, and Firebase Auth.</span>
+  </td>
+</tr>
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(297, 55%, 45%), hsl(337, 60%, 55%));">S</div></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://shipdrip.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Shipdrip</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, R2, GitHub OAuth</span>
+    <br><span style="font-size: 0.85em; color: #444;">Show-and-tell for vibe-coded projects — public feed, demo embeds, vibe reactions, and GitHub import. Nuxt 3 on Cloudflar</span>
+  </td>
+</tr>
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(91, 55%, 45%), hsl(131, 60%, 55%));">Q</div></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://admin-hub.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Quick Website Builder</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, SaaS, Website Builder</span>
+    <br><span style="font-size: 0.85em; color: #444;">Quick websites for real people — choose a preset portfolio or business design, fill your profile once in My data, and la</span>
+  </td>
+</tr>
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://chat-widget.uft1.com/"><img src="https://pocket.uft1.com/images/chat-widget.png" alt="chatbot-widget" width="140" style="border-radius: 8px;" /></a></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://chat-widget.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">chatbot-widget</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— AI, OpenAI, Anthropic</span>
+    <br><span style="font-size: 0.85em; color: #444;">Instantly embed a GPT-powered chatbot into any site.</span>
+  </td>
+</tr>
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://projectmate.uft1.com/"><img src="https://pocket.uft1.com/images/projectmate-embedded-app.png" alt="ProjectMate" width="140" style="border-radius: 8px;" /></a></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://projectmate.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">ProjectMate</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Netlify, Serverless</span>
+    <br><span style="font-size: 0.85em; color: #444;">Embeddable feedback and release-notes overlay for any site — one script tag, no iframe rebuild.</span>
+  </td>
+</tr>
+</table>
 <!-- END: TOP_PROJECTS -->

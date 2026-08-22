@@ -446,6 +446,24 @@ function generateResumeSection(resumeData) {
 `;
 }
 
+function thumbnailUrl(thumb) {
+  if (!thumb) return null;
+  // Relative paths resolve against the data origin that actually serves images.
+  if (thumb.startsWith('/')) return 'https://pocket.uft1.com' + thumb;
+  // Absolute URLs in the data still point at content.jovylle.com (404s); images live on pocket.uft1.com.
+  if (thumb.startsWith('https://content.jovylle.com/')) return thumb.replace('https://content.jovylle.com', 'https://pocket.uft1.com');
+  return thumb;
+}
+
+function placeholderThumb(title) {
+  // Deterministic hue from the title so the same project always gets the same color.
+  let hash = 0;
+  for (let i = 0; i < title.length; i++) hash = (hash * 31 + title.charCodeAt(i)) >>> 0;
+  const hue = hash % 360;
+  const initial = (title[0] || '?').toUpperCase();
+  return `<div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(${hue}, 55%, 45%), hsl(${(hue + 40) % 360}, 60%, 55%));">${initial}</div>`;
+}
+
 function generateTopProjects(projects) {
   const top = [...projects]
     .filter(p => !p.private && p.status === 'published')
@@ -455,22 +473,30 @@ function generateTopProjects(projects) {
   let html = `---
 <div style="font-size: 1.25rem; font-weight: bold">🛠️ Some Personal Projects or Tools</div>
 
-<ul style="list-style: none; padding: 0;">`;
+<table>
+`;
 
   top.forEach(project => {
     const liveUrl = project.links?.find(l => l.label === 'Live' || l.label === 'Live Site')?.url || project.repo;
     const tech = project.tech?.length ? project.tech.join(', ') : '';
     const desc = project.description ? project.description.substring(0, 120) : '';
+    const thumb = thumbnailUrl(project.thumbnail);
+    const thumbHtml = thumb
+      ? `<a href="${liveUrl}"><img src="${thumb}" alt="${project.title}" width="140" style="border-radius: 8px;" /></a>`
+      : placeholderThumb(project.title);
     html += `
-<li style="margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #eee;">
-  <a href="${liveUrl}" style="color: #2F81F7; text-decoration: none; font-weight: 600;">${project.title}</a>
-  ${tech ? `<span style="font-size: 0.82em; color: #666; margin-left: 6px;">— ${tech}</span>` : ''}
-  ${desc ? `<br><span style="font-size: 0.85em; color: #444;">${desc}</span>` : ''}
-</li>`;
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;">${thumbHtml}</td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="${liveUrl}" style="color: #2F81F7; text-decoration: none; font-weight: 600;">${project.title}</a>
+    ${tech ? `<span style="font-size: 0.82em; color: #666; margin-left: 6px;">— ${tech}</span>` : ''}
+    ${desc ? `<br><span style="font-size: 0.85em; color: #444;">${desc}</span>` : ''}
+  </td>
+</tr>`;
   });
 
   html += `
-</ul>
+</table>
 
 `;
   return html;
