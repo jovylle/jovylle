@@ -21,21 +21,21 @@
 <!-- START: TECH_STACK -->
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
   <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue-35495e?style=for-the-badge&logo=vue&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Serverless-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/R2-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge" />
 </p>
 <!-- END: TECH_STACK -->
 
@@ -160,9 +160,9 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-67-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-32-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-31-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-50-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-29-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-32-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
 
@@ -180,6 +180,10 @@
 
 <ul style="list-style: none; padding: 0;">
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/herdr-session-title-name" style="color: #2F81F7; text-decoration: none; font-weight: 500;">herdr-session-title-name: terminal_title_stripped → tab persistence</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Aug 28, 2026</span>
+</li>
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/hermes-opencode-acp" style="color: #2F81F7; text-decoration: none; font-weight: 500;">hermes-opencode-acp: OpenCode's model catalog, free tier included, inside Hermes</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Aug 23, 2026</span>
 </li>
@@ -190,10 +194,6 @@
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/why-i-used-cursor-ide-for-a-year" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Why I Used Cursor IDE for a Year</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jul 7, 2026</span>
-</li>
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/chatgpt-search-v2-update" style="color: #2F81F7; text-decoration: none; font-weight: 500;">ChatGPT Search v2: auto-send, quick search, and a c shortcut</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jun 29, 2026</span>
 </li>
 </ul>
 <!-- END: RECENT_BLOGS -->
@@ -247,6 +247,14 @@
   </td>
 </tr>
 <tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(329, 55%, 45%), hsl(9, 60%, 55%));">H</div></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://herdr-session-title-name.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">herdr-session-title-name</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Herdr, Shell, Python, Cloudflare Pages, Hermes</span>
+    <br><span style="font-size: 0.85em; color: #444;">Persist terminal_title_stripped as herdr tab label — numeric tabs auto-rename to stripped OSC title so hermes --tui -c "</span>
+  </td>
+</tr>
+<tr>
   <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(297, 55%, 45%), hsl(337, 60%, 55%));">S</div></td>
   <td valign="middle" style="padding: 10px;">
     <a href="https://shipdrip.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Shipdrip</a>
@@ -268,14 +276,6 @@
     <a href="https://chat-widget.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">chatbot-widget</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— AI, OpenAI, Anthropic</span>
     <br><span style="font-size: 0.85em; color: #444;">Instantly embed a GPT-powered chatbot into any site.</span>
-  </td>
-</tr>
-<tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://projectmate.uft1.com/"><img src="https://content.jovylle.com/images/projectmate-embedded-app.png" alt="ProjectMate" width="140" style="border-radius: 8px;" /></a></td>
-  <td valign="middle" style="padding: 10px;">
-    <a href="https://projectmate.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">ProjectMate</a>
-    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Netlify, Serverless</span>
-    <br><span style="font-size: 0.85em; color: #444;">Embeddable feedback and release-notes overlay for any site — one script tag, no iframe rebuild.</span>
   </td>
 </tr>
 </table>
