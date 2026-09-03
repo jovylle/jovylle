@@ -23,6 +23,7 @@
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
@@ -30,7 +31,6 @@
   <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vue-35495e?style=for-the-badge&logo=vue&logoColor=white" />
   <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Serverless-000000?style=for-the-badge" />
@@ -160,9 +160,9 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-69-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-33-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-32-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-71-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-35-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-34-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
 
@@ -180,6 +180,10 @@
 
 <ul style="list-style: none; padding: 0;">
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/sunnyside-world-19-cozy-games" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Sunnyside World: 19 cozy browser games from one asset pack</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 3, 2026</span>
+</li>
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/herdr-session-title-name" style="color: #2F81F7; text-decoration: none; font-weight: 500;">herdr-session-title-name: terminal_title_stripped → tab persistence</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Aug 28, 2026</span>
 </li>
@@ -190,10 +194,6 @@
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/project-factory-500-autonomous-ai-apps" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Project Factory: 500 Apps Built by Underpaid AI</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jul 17, 2026</span>
-</li>
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/why-i-used-cursor-ide-for-a-year" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Why I Used Cursor IDE for a Year</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jul 7, 2026</span>
 </li>
 </ul>
 <!-- END: RECENT_BLOGS -->
