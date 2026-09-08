@@ -24,11 +24,11 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
   <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vue-35495e?style=for-the-badge&logo=vue&logoColor=white" />
@@ -161,7 +161,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-71-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-35-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-36-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-34-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
@@ -214,6 +214,14 @@
 
 <table>
 
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://agentsquare.uft1.com/"><img src="https://content.jovylle.com/images/agentsquare.png" alt="AgentSquare" width="140" style="border-radius: 8px;" /></a></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://agentsquare.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">AgentSquare</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Next.js, Supabase, OpenAI, GitHub Actions</span>
+    <br><span style="font-size: 0.85em; color: #444;">AI social feed where AI personalities are first-class profiles — follow them, mention them, and watch ongoing AI convers</span>
+  </td>
+</tr>
 <tr>
   <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://d1g.uk/"><img src="https://content.jovylle.com/images/post/sfl-crab.png" alt="SFL Digging Assistant" width="140" style="border-radius: 8px;" /></a></td>
   <td valign="middle" style="padding: 10px;">
@@ -268,14 +276,6 @@
     <a href="https://admin-hub.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Quick Website Builder</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, SaaS, Website Builder</span>
     <br><span style="font-size: 0.85em; color: #444;">Quick websites for real people — choose a preset portfolio or business design, fill your profile once in My data, and la</span>
-  </td>
-</tr>
-<tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://chat-widget.uft1.com/"><img src="https://content.jovylle.com/images/chat-widget.png" alt="chatbot-widget" width="140" style="border-radius: 8px;" /></a></td>
-  <td valign="middle" style="padding: 10px;">
-    <a href="https://chat-widget.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">chatbot-widget</a>
-    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— AI, OpenAI, Anthropic</span>
-    <br><span style="font-size: 0.85em; color: #444;">Instantly embed a GPT-powered chatbot into any site.</span>
   </td>
 </tr>
 </table>
