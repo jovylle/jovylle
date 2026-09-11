@@ -22,20 +22,20 @@
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
   <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Vite-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vue-35495e?style=for-the-badge&logo=vue&logoColor=white" />
   <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Serverless-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/R2-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
 </p>
 <!-- END: TECH_STACK -->
 
@@ -160,9 +160,9 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-71-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-36-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-34-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-72-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-37-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-35-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
 
@@ -223,6 +223,14 @@
   </td>
 </tr>
 <tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://factory.uft1.com/"><img src="https://factory.uft1.com/og-image.png" alt="Project Factory — 478 Autonomous AI-Built Apps" width="140" style="border-radius: 8px;" /></a></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://factory.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Project Factory — 478 Autonomous AI-Built Apps</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— React 19, Vite, TypeScript, Tailwind CSS, Cloudflare Pages, Cloudflare Workers, KV, OpenCode, DeepSeek</span>
+    <br><span style="font-size: 0.85em; color: #444;">An autonomous AI pipeline that builds small web apps from spec to deployed with zero human-written code — 478 of 501 shi</span>
+  </td>
+</tr>
+<tr>
   <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://d1g.uk/"><img src="https://content.jovylle.com/images/post/sfl-crab.png" alt="SFL Digging Assistant" width="140" style="border-radius: 8px;" /></a></td>
   <td valign="middle" style="padding: 10px;">
     <a href="https://d1g.uk/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">SFL Digging Assistant</a>
@@ -268,14 +276,6 @@
     <a href="https://shipdrip.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Shipdrip</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, R2, GitHub OAuth</span>
     <br><span style="font-size: 0.85em; color: #444;">Show-and-tell for vibe-coded projects — public feed, demo embeds, vibe reactions, and GitHub import. Nuxt 3 on Cloudflar</span>
-  </td>
-</tr>
-<tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(91, 55%, 45%), hsl(131, 60%, 55%));">Q</div></td>
-  <td valign="middle" style="padding: 10px;">
-    <a href="https://admin-hub.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Quick Website Builder</a>
-    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, SaaS, Website Builder</span>
-    <br><span style="font-size: 0.85em; color: #444;">Quick websites for real people — choose a preset portfolio or business design, fill your profile once in My data, and la</span>
   </td>
 </tr>
 </table>
