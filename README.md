@@ -180,6 +180,10 @@
 
 <ul style="list-style: none; padding: 0;">
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/project-factory-postmortem-501-apps-that-actually-shipped" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Project Factory postmortem: 501 apps shipped, and the 6 failure modes that almost stopped it</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 12, 2026</span>
+</li>
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/sunnyside-world-19-cozy-games" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Sunnyside World: 19 cozy browser games from one asset pack</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 3, 2026</span>
 </li>
@@ -190,10 +194,6 @@
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/hermes-opencode-acp" style="color: #2F81F7; text-decoration: none; font-weight: 500;">hermes-opencode-acp: OpenCode's model catalog, free tier included, inside Hermes</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Aug 23, 2026</span>
-</li>
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/project-factory-500-autonomous-ai-apps" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Project Factory: 500 Apps Built by Underpaid AI</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Jul 17, 2026</span>
 </li>
 </ul>
 <!-- END: RECENT_BLOGS -->
