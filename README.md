@@ -25,17 +25,17 @@
   <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
   <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/KV-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vite-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vue-35495e?style=for-the-badge&logo=vue&logoColor=white" />
   <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Serverless-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/R2-000000?style=for-the-badge" />
 </p>
 <!-- END: TECH_STACK -->
 
@@ -160,9 +160,9 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-72-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-73-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-37-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-35-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-36-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
 
@@ -180,20 +180,20 @@
 
 <ul style="list-style: none; padding: 0;">
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/from-1-848-noisy-facts-to-a-blog-pipeline-taming-hindsight-memory" style="color: #2F81F7; text-decoration: none; font-weight: 500;">From 1,848 Noisy Facts to a Blog Pipeline: Taming Hindsight Memory</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 13, 2026</span>
+</li>
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/the-23-minute-build-what-shipping-31-ai-generated-projects-taught-me-about-verification" style="color: #2F81F7; text-decoration: none; font-weight: 500;">The 23-Minute Build: What Shipping 31 AI-Generated Projects Taught Me About Verification</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 13, 2026</span>
+</li>
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/project-factory-postmortem-501-apps-that-actually-shipped" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Project Factory postmortem: 501 apps shipped, and the 6 failure modes that almost stopped it</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 12, 2026</span>
 </li>
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/sunnyside-world-19-cozy-games" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Sunnyside World: 19 cozy browser games from one asset pack</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 3, 2026</span>
-</li>
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/herdr-session-title-name" style="color: #2F81F7; text-decoration: none; font-weight: 500;">herdr-session-title-name: terminal_title_stripped → tab persistence</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Aug 28, 2026</span>
-</li>
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/hermes-opencode-acp" style="color: #2F81F7; text-decoration: none; font-weight: 500;">hermes-opencode-acp: OpenCode's model catalog, free tier included, inside Hermes</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Aug 23, 2026</span>
 </li>
 </ul>
 <!-- END: RECENT_BLOGS -->
@@ -228,6 +228,14 @@
     <a href="https://factory.uft1.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Project Factory — 478 Autonomous AI-Built Apps</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— React 19, Vite, TypeScript, Tailwind CSS, Cloudflare Pages, Cloudflare Workers, KV, OpenCode, DeepSeek</span>
     <br><span style="font-size: 0.85em; color: #444;">An autonomous AI pipeline that builds small web apps from spec to deployed with zero human-written code — 478 of 501 shi</span>
+  </td>
+</tr>
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(167, 55%, 45%), hsl(207, 60%, 55%));">F</div></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://free.1kk.uk" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Free Subdomains (free.1kk.uk)</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Cloudflare Workers, D1, KV, Queues, JavaScript, GitHub OAuth</span>
+    <br><span style="font-size: 0.85em; color: #444;">Self-serve subdomain minter for 1kk.uk: GitHub OAuth claim, target-ownership proof, Cloudflare Worker + D1 + KV + Queue </span>
   </td>
 </tr>
 <tr>
@@ -268,14 +276,6 @@
     <a href="https://herdr-session-title-name.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">herdr-session-title-name</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Herdr, Shell, Python, Cloudflare Pages, Hermes</span>
     <br><span style="font-size: 0.85em; color: #444;">Persist terminal_title_stripped as herdr tab label — numeric tabs auto-rename to stripped OSC title so hermes --tui -c "</span>
-  </td>
-</tr>
-<tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(297, 55%, 45%), hsl(337, 60%, 55%));">S</div></td>
-  <td valign="middle" style="padding: 10px;">
-    <a href="https://shipdrip.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Shipdrip</a>
-    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, R2, GitHub OAuth</span>
-    <br><span style="font-size: 0.85em; color: #444;">Show-and-tell for vibe-coded projects — public feed, demo embeds, vibe reactions, and GitHub import. Nuxt 3 on Cloudflar</span>
   </td>
 </tr>
 </table>
