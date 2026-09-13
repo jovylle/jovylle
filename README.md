@@ -192,8 +192,8 @@
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 12, 2026</span>
 </li>
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/sunnyside-world-19-cozy-games" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Sunnyside World: 19 cozy browser games from one asset pack</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 3, 2026</span>
+  <a href="https://hub.jovylle.com/posts/why-your-capacitor-apps-can-t-use-eas-build-and-the-debug-apk-shortcut-that-works" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Why Your Capacitor Apps Can't Use EAS Build (And the Debug APK Shortcut That Works)</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 12, 2026</span>
 </li>
 </ul>
 <!-- END: RECENT_BLOGS -->
