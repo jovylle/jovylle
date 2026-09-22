@@ -56,33 +56,33 @@
 <table align="center">
 <tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
+    <h3 style="color: #2F81F7; margin-bottom: 8px;">Agent Orchestration & MCP</h3>
+    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">AI Agents</strong></p>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Daily coding-agent workflow: OpenClaude, OpenCode, and Hermes orchestrated across a Claude Opus / GLM / GPT model arsenal, wired through MCP servers into production routines. Homelab and dev tools served over Cloudflare Tunnel. Currently practicing with Jev AI.</p>  </td>
+  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Chat Assistant Box</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Chatbot / AI</strong></p>
     <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Multi-model chat studio that keeps friends online when chatgpt.com free tiers dry out. Sidebar persistence, regenerate/copy helpers, and Netlify functions proxy GPT-4o, GPT-3.5, and Claude models with transparent quota handling.</p>  </td>
+</tr>
+<tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">AI Expertise & Knowledge Base</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">AI / RAG</strong></p>
     <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">AI highlights in production: client Nuxt + OpenAI chatbots, n8n and serverless automations, and a RAG stack on AWS Bedrock with S3-backed knowledge so structured project and resume data stays queryable across chat, blogs, and prompts.</p>  </td>
-</tr>
-<tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Career foundations (pre-AI product era)</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Legacy experience</strong></p>
     <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Where the full-stack muscle started: intern + tech support building a Laravel inventory tool at Metrowear/Onsavii, years of client sites and mobile apps at Proweaver, then a short React Native / Node contract at Pincoder—Laravel, CodeIgniter, React Native, SQL, WooCommerce, and GitHub/FTP deploys long before AI tooling took center stage.</p>  </td>
+</tr>
+<tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Personal Projects Lab</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">AI tools & automation</strong></p>
     <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Sandbox for AI utilities, dashboards, and automations—experimentation and curiosity turned into shippable UIs wired to the same JSON catalogs that power the site and RAG flows.</p>  </td>
-</tr>
-<tr>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Frontend & UX Context Systems</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Frontend / UX</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">I master the UX and frontend context management by orchestrating Vue, Nuxt, and React shells that draw directly from the personal-projects catalog so dashboards, landing pages, and automation UIs stay synchronised with their data stories.</p>  </td>
-  <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
-    <h3 style="color: #2F81F7; margin-bottom: 8px;">Server Skills & Full Stack Systems</h3>
-    <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Full Stack</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Server skills plus full-stack context keep automations and JSON APIs humming; I combine data from the resume timeline and projects catalog to deploy Netlify/Serverless hooks while shepherding automation flows end-to-end.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Production Vue 3/Nuxt and React frontends — member/admin portals, dashboards, and realtime game tools — styled with Tailwind, documented in Storybook, animated with GSAP, and shipped on Cloudflare Pages and Netlify.</p>  </td>
 </tr>
 </table>
 <!-- END: TECHS_SOLUTIONS -->
@@ -180,6 +180,10 @@
 
 <ul style="list-style: none; padding: 0;">
 <li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
+  <a href="https://hub.jovylle.com/posts/23-shipped-1-pending-what-32-auto-forge-projects-reveal-about-agent-reliability" style="color: #2F81F7; text-decoration: none; font-weight: 500;">31 Shipped, 1 Pending: What 32 Auto-Forge Projects Reveal About Agent Reliability</a>
+  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 21, 2026</span>
+</li>
+<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
   <a href="https://hub.jovylle.com/posts/from-1-848-noisy-facts-to-a-blog-pipeline-taming-hindsight-memory" style="color: #2F81F7; text-decoration: none; font-weight: 500;">From 1,848 Noisy Facts to a Blog Pipeline: Taming Hindsight Memory</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 13, 2026</span>
 </li>
@@ -191,10 +195,6 @@
   <a href="https://hub.jovylle.com/posts/project-factory-postmortem-501-apps-that-actually-shipped" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Project Factory postmortem: 501 apps shipped, and the 6 failure modes that almost stopped it</a>
   <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 12, 2026</span>
 </li>
-<li style="margin-bottom: 10px; padding: 8px 0; border-bottom: 1px solid #eee;">
-  <a href="https://hub.jovylle.com/posts/why-your-capacitor-apps-can-t-use-eas-build-and-the-debug-apk-shortcut-that-works" style="color: #2F81F7; text-decoration: none; font-weight: 500;">Why Your Capacitor Apps Can't Use EAS Build (And the Debug APK Shortcut That Works)</a>
-  <span style="font-size: 0.82em; color: #666; margin-left: 8px;">Sep 12, 2026</span>
-</li>
 </ul>
 <!-- END: RECENT_BLOGS -->
 
@@ -203,7 +203,7 @@
 <div style="font-size: 1.25rem; font-weight: bold">👔 Resume</div>
 
 <p style="font-size: 1em; line-height: 1.6;">
-  **Full-Stack / Frontend Developer** at Confidential Company · Oct 2024 – Present<br>
+  **Enterprise Full-Stack Software Engineer** at Enterprise Client (NDA) · Oct 2024 – Present<br>
   <a href="https://jovylle.com/resume" target="_blank" style="color: #2F81F7; font-weight: 500;">View full resume →</a>
 </p>
 <!-- END: RESUME -->
