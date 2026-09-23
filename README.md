@@ -160,9 +160,9 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-73-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-74-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-37-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-36-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-37-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
 
