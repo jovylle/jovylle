@@ -25,10 +25,10 @@
   <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
   <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/KV-000000?style=for-the-badge" />
@@ -160,8 +160,8 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-75-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-37-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-76-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-38-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-37-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
