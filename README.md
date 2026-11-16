@@ -23,19 +23,19 @@
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloudflare%20Pages-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/JS-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Cloudflare%20Workers-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
   <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/KV-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vite-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/KV-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vue-35495e?style=for-the-badge&logo=vue&logoColor=white" />
-  <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Serverless-000000?style=for-the-badge" />
 </p>
 <!-- END: TECH_STACK -->
 
@@ -160,9 +160,9 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-89-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-90-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-39-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-37-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-39-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
 
@@ -247,6 +247,22 @@
   </td>
 </tr>
 <tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(60, 55%, 45%), hsl(100, 60%, 55%));">F</div></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://freephoto.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Free Photo Edit</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Python, FastAPI, SQLite, Cloudflare Tunnel, OpenAI, Turnstile, Xendit, JavaScript, GitHub Actions</span>
+    <br><span style="font-size: 0.85em; color: #444;">Free AI photo editor for Filipino users: upload up to five photos with a Tagalog, English or Bisaya instruction and get </span>
+  </td>
+</tr>
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(141, 55%, 45%), hsl(181, 60%, 55%));">S</div></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://content.jovylle.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Static Encrypted Git CMS</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— TypeScript, Cloudflare Workers, Cloudflare D1, JSON Schema, AES-256-GCM, GitHub Actions, Vite</span>
+    <br><span style="font-size: 0.85em; color: #444;">Encrypted file-based content vault: git stores AES-256-GCM ciphertext, a Cloudflare Worker live-decrypts it from the Git</span>
+  </td>
+</tr>
+<tr>
   <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://hermes-opencode-acp.uft1.com"><img src="https://content.jovylle.com/images/hermes-opencode-acp.png" alt="hermes-opencode-acp" width="140" style="border-radius: 8px;" /></a></td>
   <td valign="middle" style="padding: 10px;">
     <a href="https://hermes-opencode-acp.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">hermes-opencode-acp</a>
@@ -260,22 +276,6 @@
     <a href="https://fast.jovylle.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Playbase</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Serverless, GitHub Actions</span>
     <br><span style="font-size: 0.85em; color: #444;">Lightweight reaction-test game with all-time leaderboard JSON. The portfolio widget proxies scores via /api/leaderboard </span>
-  </td>
-</tr>
-<tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://loopgallery.a-u.us"><img src="https://content.jovylle.com/images/loop-gallery-space.png" alt="LoopGallery" width="140" style="border-radius: 8px;" /></a></td>
-  <td valign="middle" style="padding: 10px;">
-    <a href="https://loopgallery.a-u.us" style="color: #2F81F7; text-decoration: none; font-weight: 600;">LoopGallery</a>
-    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Nuxt 3, Cloudflare Workers, D1, R2, Firebase</span>
-    <br><span style="font-size: 0.85em; color: #444;">Social gallery for loops and creative shares — Nuxt 3 on Cloudflare Workers with D1, R2, and Firebase Auth.</span>
-  </td>
-</tr>
-<tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(329, 55%, 45%), hsl(9, 60%, 55%));">H</div></td>
-  <td valign="middle" style="padding: 10px;">
-    <a href="https://herdr-session-title-name.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">herdr-session-title-name</a>
-    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Herdr, Shell, Python, Cloudflare Pages, Hermes</span>
-    <br><span style="font-size: 0.85em; color: #444;">Persist terminal_title_stripped as herdr tab label — numeric tabs auto-rename to stripped OSC title so hermes --tui -c "</span>
   </td>
 </tr>
 </table>
