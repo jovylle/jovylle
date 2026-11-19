@@ -259,7 +259,7 @@
   <td valign="middle" style="padding: 10px;">
     <a href="https://t3cc.jovylle.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">T3 Command Code Harness</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Shell, Node.js, ACP, T3 Code, Command Code, Cloudflare Workers, GitHub Actions</span>
-    <br><span style="font-size: 0.85em; color: #444;">Run the Command Code CLI as a first-class provider inside T3 Code, with no proxy, no wrapper and no API key. The CLI's A</span>
+    <br><span style="font-size: 0.85em; color: #444;">Run the Command Code CLI as a first-class provider inside T3 Code over ACP: no proxy, no API key, just the login you alr</span>
   </td>
 </tr>
 <tr>
