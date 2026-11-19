@@ -29,10 +29,10 @@
   <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white" />
   <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vite-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Shell-89E051?style=for-the-badge&logo=shell&logoColor=white" />
   <img src="https://img.shields.io/badge/KV-000000?style=for-the-badge" />
@@ -161,8 +161,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-91-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-40-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Live%20Sites-39-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-39-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Live%20Sites-40-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
 
@@ -255,6 +255,14 @@
   </td>
 </tr>
 <tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://t3cc.jovylle.com"><img src="https://t3cc.jovylle.com/og-image.png" alt="T3 Command Code Harness" width="140" style="border-radius: 8px;" /></a></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://t3cc.jovylle.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">T3 Command Code Harness</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Shell, Node.js, ACP, T3 Code, Command Code, Cloudflare Workers, GitHub Actions</span>
+    <br><span style="font-size: 0.85em; color: #444;">Run the Command Code CLI as a first-class provider inside T3 Code, with no proxy, no wrapper and no API key. The CLI's A</span>
+  </td>
+</tr>
+<tr>
   <td align="center" valign="middle" width="150" style="padding: 10px;"><div style="width: 140px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; color: rgba(255,255,255,0.9); background: linear-gradient(135deg, hsl(141, 55%, 45%), hsl(181, 60%, 55%));">S</div></td>
   <td valign="middle" style="padding: 10px;">
     <a href="https://content.jovylle.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Static Encrypted Git CMS</a>
@@ -268,14 +276,6 @@
     <a href="https://hermes-opencode-acp.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">hermes-opencode-acp</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Python, ACP, Hermes, OpenCode</span>
     <br><span style="font-size: 0.85em; color: #444;">Plugin that lets Hermes use OpenCode's model catalog (200+ models, free tier included) as a provider via the Agent Clien</span>
-  </td>
-</tr>
-<tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://fast.jovylle.com"><img src="https://content.jovylle.com/images/playbase.png" alt="Playbase" width="140" style="border-radius: 8px;" /></a></td>
-  <td valign="middle" style="padding: 10px;">
-    <a href="https://fast.jovylle.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Playbase</a>
-    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— JavaScript, Serverless, GitHub Actions</span>
-    <br><span style="font-size: 0.85em; color: #444;">Lightweight reaction-test game with all-time leaderboard JSON. The portfolio widget proxies scores via /api/leaderboard </span>
   </td>
 </tr>
 </table>
