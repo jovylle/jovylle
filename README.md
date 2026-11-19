@@ -58,7 +58,7 @@
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Agent Orchestration & MCP</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">AI Agents</strong></p>
-    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Daily coding-agent workflow: OpenClaude, OpenCode, and Hermes orchestrated across a Claude Opus / GLM / GPT model arsenal, wired through MCP servers into production routines. Homelab and dev tools served over Cloudflare Tunnel. Currently practicing with Jev AI.</p>  </td>
+    <p style="font-size: 0.9em; line-height: 1.4; margin: 12px 0;">Daily coding-agent workflow: Claude Code, OpenCode, and Hermes orchestrated across a Claude Opus / GLM / GPT model arsenal, wired through MCP servers into production routines. Homelab and dev tools served over Cloudflare Tunnel. Currently practicing with Jev AI.</p>  </td>
   <td align="center" width="50%" style="vertical-align: top; padding: 20px;">
     <h3 style="color: #2F81F7; margin-bottom: 8px;">Chat Assistant Box</h3>
     <p><strong style="background: #f6f8fa; padding: 2px 8px; border-radius: 12px; font-size: 0.85em;">Chatbot / AI</strong></p>
