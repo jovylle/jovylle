@@ -31,10 +31,10 @@
   <img src="https://img.shields.io/badge/D1-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Nuxt%203-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Shell-89E051?style=for-the-badge&logo=shell&logoColor=white" />
   <img src="https://img.shields.io/badge/Vite-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Shell-89E051?style=for-the-badge&logo=shell&logoColor=white" />
   <img src="https://img.shields.io/badge/KV-000000?style=for-the-badge" />
 </p>
 <!-- END: TECH_STACK -->
@@ -160,7 +160,7 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-92-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-93-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Languages-39-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-40-orange?style=for-the-badge" />
 </p>
