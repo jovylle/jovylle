@@ -166,8 +166,8 @@
 <div style="font-size: 1.25rem; font-weight: bold">📊 Stats</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-94-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Languages-40-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-96-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-42-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Live%20Sites-40-orange?style=for-the-badge" />
 </p>
 <!-- END: PROFILE_STATS -->
@@ -220,6 +220,14 @@
 
 <table>
 
+<tr>
+  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://github.com/jovylle/menubar-windows"><img src="https://content.jovylle.com/images/menubar-windows.png" alt="MenubarWindows" width="140" style="border-radius: 8px;" /></a></td>
+  <td valign="middle" style="padding: 10px;">
+    <a href="https://github.com/jovylle/menubar-windows" style="color: #2F81F7; text-decoration: none; font-weight: 600;">MenubarWindows</a>
+    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Swift, AppKit, SwiftUI, Accessibility</span>
+    <br><span style="font-size: 0.85em; color: #444;">Window tabs in the menu bar's rarely used space. Notch-aware, or top left. Free macOS app.</span>
+  </td>
+</tr>
 <tr>
   <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://agentsquare.uft1.com/"><img src="https://content.jovylle.com/images/agentsquare.png" alt="AgentSquare" width="140" style="border-radius: 8px;" /></a></td>
   <td valign="middle" style="padding: 10px;">
@@ -274,14 +282,6 @@
     <a href="https://content.jovylle.com/" style="color: #2F81F7; text-decoration: none; font-weight: 600;">Static Encrypted Git CMS</a>
     <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— TypeScript, Cloudflare Workers, Cloudflare D1, JSON Schema, AES-256-GCM, GitHub Actions, Vite</span>
     <br><span style="font-size: 0.85em; color: #444;">Encrypted file-based content vault: git stores AES-256-GCM ciphertext, a Cloudflare Worker live-decrypts it from the Git</span>
-  </td>
-</tr>
-<tr>
-  <td align="center" valign="middle" width="150" style="padding: 10px;"><a href="https://hermes-opencode-acp.uft1.com"><img src="https://content.jovylle.com/images/hermes-opencode-acp.png" alt="hermes-opencode-acp" width="140" style="border-radius: 8px;" /></a></td>
-  <td valign="middle" style="padding: 10px;">
-    <a href="https://hermes-opencode-acp.uft1.com" style="color: #2F81F7; text-decoration: none; font-weight: 600;">hermes-opencode-acp</a>
-    <span style="font-size: 0.82em; color: #666; margin-left: 6px;">— Python, ACP, Hermes, OpenCode</span>
-    <br><span style="font-size: 0.85em; color: #444;">Plugin that lets Hermes use OpenCode's model catalog (200+ models, free tier included) as a provider via the Agent Clien</span>
   </td>
 </tr>
 </table>
