@@ -45,6 +45,12 @@
     <img src="https://holopin.me/jovylle" alt="Holopin" width="400" />
   </a>
 </p>
+<p align="center">
+  <a href="https://github.com/jovylle/menubar-windows">
+    <img src="assets/menubar-windows-demo.gif" alt="MenubarWindows demo: your windows as tabs in the menu bar" width="600" />
+  </a>
+</p>
+<p align="center"><b>MenubarWindows</b>: your windows as tabs in the empty middle of the macOS menu bar. Free and open source. <code>brew install --cask jovylle/tap/menubarwindows</code></p>
 
 
 
