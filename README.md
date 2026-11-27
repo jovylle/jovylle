@@ -47,10 +47,10 @@
 </p>
 <p align="center">
   <a href="https://github.com/jovylle/menubar-windows">
-    <img src="assets/menubar-windows-demo.gif" alt="MenubarWindows demo: your windows as tabs in the menu bar" width="600" />
+    <img src="assets/menubar-windows-demo.gif" alt="MenubarWindows demo: your windows as tabs in the menu bar" width="480" />
   </a>
 </p>
-<p align="center"><b>MenubarWindows</b>: your windows as tabs in the empty middle of the macOS menu bar. Free and open source. <code>brew install --cask jovylle/tap/menubarwindows</code></p>
+<p align="center"><b>MenubarWindows</b>: your windows as tabs in the empty middle of the macOS menu bar. Free and open source. <code>brew install --cask jovylle/tap/menubarwindows</code> <a href="https://github.com/jovylle/menubar-windows/releases/download/v0.1.0/MenubarWindows-demo.mp4">Watch the full demo (video)</a></p>
 
 
 
